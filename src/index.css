@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+
+.middle{
+  @apply  before:bg-slate-600  font-bold transition duration-500 ease-in-out;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.middle
+{
+    position: relative;
+}
+.middle:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -10px;
+  left: 0;
+  /* background-color: rgb(20 83 45); */
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.middle:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+  /* background-color: rgb(134 239 172); */
+}
+
+/* Stylesheet or inline styles */
+/* Override the Swiper CSS variables */
+.swiper-pagination-bullet {
+  --swiper-pagination-bullet-width: 16px !important;
+  --swiper-pagination-bullet-height: 16px !important;
+  --swiper-pagination-bullet-border-radius: 50% !important;
+  --swiper-pagination-bullet-inactive-color: #FFF !important;
+  --swiper-pagination-bullet-inactive-opacity: 0.5 !important;
+  --swiper-pagination-color: #FFF !important;
+  /* Add your additional styling */
+  /* ... */
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  --swiper-pagination-bullet-horizontal-gap: 10px !important;
+}
+
+
+.swiper-button-next, .swiper-button-prev{
+  --swiper-navigation-color: #fff;
+  --swiper-navigation-size: 50px;
+}
+
+
+
+
+
+.Ysabeau{
+  font-family: 'Ysabeau', sans-serif;
 }
