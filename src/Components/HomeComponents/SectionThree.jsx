@@ -7,7 +7,7 @@ import portoImg from "../../Images/porto.jpg";
 
 export const SectionThree = () => {
   return (
-    <div className="py-14 flex flex-col gap-16 bg-gray-300 rounded-lg">
+    <div className="py-14 flex flex-col gap-16 bg-gray-300 rounded-lg mx-28">
       <h3 className="text-gray-900 font-bold text-5xl font-serif">
         Top Selling Travel Packages
       </h3>

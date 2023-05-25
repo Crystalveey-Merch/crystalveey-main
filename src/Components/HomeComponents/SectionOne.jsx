@@ -20,7 +20,7 @@ import imgTwelve from "../../Images/fourteen.jpg";
 
 export const SectionOne = () => {
   return (
-    <div className=" flex gap-20 py-10 text-left px-28 items-center">
+    <div className=" flex gap-20 py-10 text-left px-56 items-center">
       <div className="w-6/12 pr-16 ">
         <Swiper
           //   spaceBetween={30}

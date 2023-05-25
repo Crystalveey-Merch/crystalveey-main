@@ -14,7 +14,7 @@ export const SectionFive = () => {
   return (
     <div
       className="py-24 flex flex-col gap-16  rounded-lg bg-gradient-to-br
-    from-gray-50 to-white  "
+    from-gray-50 to-white mx-28 "
     >
       <h3 className="text-gray-900 font-bold text-6xl font-serif">
         Check What Our Clients are Saying
@@ -24,8 +24,8 @@ export const SectionFive = () => {
           {/* <div className="absolute right-0 top-0 z-0 ">
             <VectorImg className="w-40 h-40 " />
           </div> */}
-          <HighlightOne className="absolute left-0 top-0 z-0" />
-          <HighlightTwo className="absolute right-0 bottom-0 z-0" />
+          {/* <HighlightOne className="absolute left-0 top-0 z-0" />
+          <HighlightTwo className="absolute right-0 bottom-0 z-0" /> */}
           <img
             src={reviewImg}
             alt="reviewImg"

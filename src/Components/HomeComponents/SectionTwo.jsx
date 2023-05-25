@@ -10,7 +10,7 @@ import  {ReactComponent as Charity} from "../../Images/charity.svg";
 
 export const SectionTwo = () => {
   return (
-    <div className="py-14 flex flex-col gap-16">
+    <div className="py-14 flex flex-col gap-16 px-28">
       <h3 className="text-gray-900 font-bold text-5xl font-serif">
       Our Diversified Portfolio
       </h3>

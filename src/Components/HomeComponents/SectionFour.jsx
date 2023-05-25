@@ -17,7 +17,7 @@ import imgTen from "../../Images/model-five.jpg";
 
 export const SectionFour = () => {
   return (
-    <div className="py-14 px-14 flex flex-col gap-16   bg-gray-300 rounded-lg">
+    <div className="py-14 px-14 flex flex-col gap-16   bg-gray-300 rounded-lg ml-28">
       <h3 className="text-gray-900 font-bold text-5xl font-serif">
         Top Selling Designs
       </h3>
