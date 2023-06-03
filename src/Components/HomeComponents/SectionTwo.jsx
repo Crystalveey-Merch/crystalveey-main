@@ -15,7 +15,8 @@ export const SectionTwo = () => {
         Our Diversified Portfolio
       </h3>
       <div className="flex justify-around gap-10 2xl:gap-6 lg:grid lg:grid-cols-2 lg:grid-flow-row lg:gap-y-12 lg:justify-center lg:w-max sm:flex sm:flex-col sm:gap-6 sm:gap-y-6 sm:px-0 sm:w-full">
-        <div className=" flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80 sm:w-full ">
+        <div className="relative flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80 sm:w-full ">
+          <p className="text-left text-white font-light text-base absolute z-10 left-4 bg-gray-600 top-4 p-2 rounded-tl-xl">Explore the world</p>
           <img
             src={exploreImg}
             alt="exploreImg"
