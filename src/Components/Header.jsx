@@ -22,7 +22,7 @@ export const Header = () => {
     document.body.classList.toggle("is-side-menu-open");
   };
   return (
-    <div className="px-36  flex justify-between py-8 items-center bg-white shadow-md  2xl:px-16 xl:px-8">
+    <div className="px-36  flex justify-between py-8 items-center bg-white shadow-md  2xl:px-16 xl:px-8 sm:px-4 sm:py-4">
       <div className="relative flex flex-col gap-2 sm:gap-1">
         <h2 className="font-bold text-4xl text-black font-pro xl:font-semibold sm:text-2xl">
           {" "}
@@ -82,13 +82,48 @@ export const Header = () => {
             menuOpen ? "open" : ""
           } hidden lg:block focus:outline-none z-30 `}
         >
-          <span className="harburger-top bg-white transition duration-500 ease-in-out  "></span>
-          <span className="harburger-middle bg-white transition duration-500 ease-in-out  "></span>
-          <span className="harburger-bottom bg-white transition duration-500 ease-in-out  "></span>
+          <span className="harburger-top bg-black transition duration-500 ease-in-out  "></span>
+          <span className="harburger-middle bg-black transition duration-500 ease-in-out  "></span>
+          <span className="harburger-bottom bg-black transition duration-500 ease-in-out  "></span>
         </button>
       </div>
-      <div className="header-links hidden">
-
+      <div className="header-links z-20">
+        <div className="hidden bg-white lg:flex flex-col gap-14 h-screen px-10 py-5 pr-20 sm:pr-14 sm:px-6">
+          <ul className="flex flex-col gap-5 pt-6">
+            <li className="border-b border-gray-700 pb-3">
+              <Link
+                to="/"
+                className="middle  text-base  font-semibold hover:text-gray-750 sm:text-sm"
+              >
+                Book A Trip
+              </Link>
+            </li>
+            <li className="border-b border-gray-700 pb-3">
+              <Link
+                to="/"
+                className="middle  text-base  font-semibold hover:text-gray-750 sm:text-sm"
+              >
+                Wear Something New
+              </Link>
+            </li>
+            <li className="border-b border-gray-700 pb-3">
+              <Link
+                to="/"
+                className="middle  text-base  font-semibold hover:text-gray-750 sm:text-sm"
+              >
+                Join Wholesome
+              </Link>
+            </li>
+            <li className="border-b border-gray-700 pb-3">
+              <Link
+                to="/"
+                className="middle  text-base  font-semibold hover:text-gray-750 sm:text-sm"
+              >
+                Free Consultation
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

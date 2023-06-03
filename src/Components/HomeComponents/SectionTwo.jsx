@@ -10,12 +10,12 @@ import { ReactComponent as Charity } from "../../Images/charity.svg";
 
 export const SectionTwo = () => {
   return (
-    <div className="py-14 flex flex-col gap-16 px-28 bg-gray-50 2xl:px-10 xl:px-7 xl:gap-10 lg:justify-center lg:items-center lg:py-6">
-      <h3 className="text-gray-900 font-bold text-5xl font-serif xl:text-4xl">
+    <div className="py-14 flex flex-col gap-16 px-28 bg-gray-50 2xl:px-10 xl:px-7 xl:gap-10 lg:justify-center lg:items-center lg:py-6 sm:gap-10">
+      <h3 className="text-gray-900 font-bold text-5xl font-serif xl:text-4xl sm:text-2xl">
         Our Diversified Portfolio
       </h3>
-      <div className="flex justify-around gap-10 2xl:gap-6 lg:grid lg:grid-cols-2 lg:grid-flow-row lg:gap-y-12 lg:justify-center lg:w-max">
-        <div className=" flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80">
+      <div className="flex justify-around gap-10 2xl:gap-6 lg:grid lg:grid-cols-2 lg:grid-flow-row lg:gap-y-12 lg:justify-center lg:w-max sm:flex sm:flex-col sm:gap-6 sm:gap-y-6 sm:px-0 sm:w-full">
+        <div className=" flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80 sm:w-full ">
           <img
             src={exploreImg}
             alt="exploreImg"
@@ -38,7 +38,7 @@ export const SectionTwo = () => {
             Learn More
           </button>
         </div>
-        <div className=" flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80">
+        <div className=" flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80  sm:w-full">
           <img
             src={atelierImg}
             alt="exploreImg"
@@ -61,7 +61,7 @@ export const SectionTwo = () => {
             Learn More
           </button>
         </div>
-        <div className=" flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80">
+        <div className=" flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80  sm:w-full">
           <img
             src={wholesomeImg}
             alt="exploreImg"
@@ -84,7 +84,7 @@ export const SectionTwo = () => {
             Learn More
           </button>
         </div>
-        <div className=" flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80">
+        <div className=" flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80  sm:w-full">
           <img
             src={CvCImg}
             alt="exploreImg"

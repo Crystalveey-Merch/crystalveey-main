@@ -19,12 +19,23 @@ import imgEleven from "../../Images/thirteen.jpg";
 import imgTwelve from "../../Images/fourteen.jpg";
 
 export const SectionOne = () => {
+  const breakpoints = {
+    639: {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        hideOnClick: true,
+      },
+    },
+  };
+
   return (
-    <div className=" flex gap-20 py-10 text-left px-56 items-center 2xl:px-16 2xl:gap-0 2xl:justify-between xl:px-10 lg:flex-col-reverse lg:gap-8">
+    <div className=" flex gap-20 py-10 text-left px-56 items-center 2xl:px-16 2xl:gap-0 2xl:justify-between xl:px-10 lg:flex-col-reverse lg:gap-8 sm:px-4">
       <div className="w-6/12 pr-16 lg:w-full lg:pr-0">
         <Swiper
           //   spaceBetween={30}
           //   centeredSlides={true}
+          breakpoints={breakpoints}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
@@ -41,14 +52,14 @@ export const SectionOne = () => {
             <img
               src={imgSeven}
               alt="imgSeven"
-              className=" h-96 rounded-xl shadow-lg w-11/12"
+              className=" h-96 rounded-xl shadow-lg w-11/12 sm:h-72"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={imgEight}
               alt="fashion"
-              className=" h-96 rounded-xl shadow-lg w-11/12"
+              className=" h-96 rounded-xl shadow-lg w-11/12 sm:h-72"
             />
           </SwiperSlide>
 
@@ -56,77 +67,77 @@ export const SectionOne = () => {
             <img
               src={imgTwo}
               alt="imgTwo"
-              className=" h-96 rounded-xl shadow-lg w-11/12"
+              className=" h-96 rounded-xl shadow-lg w-11/12 sm:h-72"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={imgTen}
               alt="imgTen"
-              className=" h-96 rounded-xl shadow-lg w-11/12"
+              className=" h-96 rounded-xl shadow-lg w-11/12 sm:h-72"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={imgOne}
               alt="imgOne"
-              className=" h-96 rounded-xl shadow-lg w-11/12"
+              className=" h-96 rounded-xl shadow-lg w-11/12 sm:h-72"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={imgThree}
               alt="imgThree"
-              className=" h-96 rounded-xl shadow-lg w-11/12"
+              className=" h-96 rounded-xl shadow-lg w-11/12 sm:h-72"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={imgFour}
               alt="imgFour"
-              className=" h-96 rounded-xl shadow-lg w-11/12"
+              className=" h-96 rounded-xl shadow-lg w-11/12 sm:h-72"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={imgFive}
               alt="imgFive"
-              className=" h-96 rounded-xl shadow-lg w-11/12"
+              className=" h-96 rounded-xl shadow-lg w-11/12 sm:h-72"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={imgSix}
               alt="imgSix"
-              className=" h-96 rounded-xl shadow-lg w-11/12"
+              className=" h-96 rounded-xl shadow-lg w-11/12 sm:h-72"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={imgNine}
               alt="imgNine"
-              className=" h-96 rounded-xl shadow-lg w-11/12"
+              className=" h-96 rounded-xl shadow-lg w-11/12 sm:h-72"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={imgEleven}
               alt="imgEleven"
-              className=" h-96 rounded-xl shadow-lg w-11/12"
+              className=" h-96 rounded-xl shadow-lg w-11/12 sm:h-72"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src={imgTwelve}
               alt="imgTwelve"
-              className=" h-96 rounded-xl shadow-lg w-11/12"
+              className=" h-96 rounded-xl shadow-lg w-11/12 sm:h-72"
             />
           </SwiperSlide>
         </Swiper>
       </div>
       <div className="w-6/12 flex flex-col gap-8 xl:gap-5 lg:w-full">
         <div className="flex flex-col gap-4 xl:gap-2">
-          <h1 className="font-bold text-5xl text-gray-900 xl:text-4xl">
+          <h1 className="font-bold text-5xl text-gray-900 xl:text-4xl sm:text-2xl sm:font-semibold">
             Welcome To Crystalveey
           </h1>
           <p className="text-gray-600 font-light text-base xl:text-sm">
@@ -134,7 +145,7 @@ export const SectionOne = () => {
             expert advice at Crystalveey.
           </p>
         </div>
-        <p className="text-gray-600 font-normal text-lg xl:text-base">
+        <p className="text-gray-600 font-normal text-lg xl:text-base ">
           Crystalveey is a unique platform that combines the worlds of charity,
           fashion, travel, and travel consultation. Discover our charitable
           initiatives, supporting communities and partnering with impactful

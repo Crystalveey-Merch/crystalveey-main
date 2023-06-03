@@ -125,6 +125,9 @@ body {
   height: 400px;
 }
 
+.sec6DivW {
+  width: 500px;
+}
 @media screen and (max-width: 1279px) {
   .sec4ImgH {
     height: 400px;
@@ -134,5 +137,50 @@ body {
 @media screen and (max-width: 1023px) {
   .reviewImgH {
     height: 350px;
+  }
+  .header-links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-left: 40%;
+    margin-top: 130px;
+  }
+
+  .header-links.open {
+    transform: translateX(0);
+  }
+}
+
+body.is-side-menu-open {
+  overflow: hidden;
+}
+@media screen and (max-width: 639px) {
+  .sec6DivW {
+    width: 100%;
+  }
+
+  .sec4ImgH {
+    height: 420px;
+  }
+
+  .reviewImgH {
+    height: 300px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    --swiper-navigation-color: #fff;
+    --swiper-navigation-size: 30px;
+  }
+
+  .header-links {
+    padding-left: 30%;
+    margin-top: 85px;
   }
 }

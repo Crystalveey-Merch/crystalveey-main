@@ -32,8 +32,8 @@ export const SectionFour = () => {
     },
   };
   return (
-    <div className="py-14 px-14 flex flex-col gap-16   bg-gray-50 rounded-lg mx-20 xl:mx-10 xl:gap-12 xl:px-8">
-      <h3 className="text-gray-900 font-bold text-5xl font-serif xl:text-4xl">
+    <div className="py-14 px-14 flex flex-col gap-16   bg-gray-50 rounded-lg mx-20 xl:mx-10 xl:gap-12 xl:px-8 sm:px-3 sm:mx-7">
+      <h3 className="text-gray-900 font-bold text-5xl font-serif xl:text-4xl md:text-2xl">
         Top Selling Designs
       </h3>
       <div className=" flex justify-center items-center">
@@ -50,18 +50,18 @@ export const SectionFour = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2">
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
               <img
                 src={imgTwo}
                 alt="imgTwo"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left">
+                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -72,18 +72,18 @@ export const SectionFour = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2">
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
               <img
                 src={imgOne}
                 alt="imgOne"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left">
+                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -95,18 +95,18 @@ export const SectionFour = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2">
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
               <img
                 src={imgThree}
                 alt="imgThree"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left">
+                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -117,18 +117,18 @@ export const SectionFour = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2">
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
               <img
                 src={imgFour}
                 alt="imgFour"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left">
+                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -139,18 +139,18 @@ export const SectionFour = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2">
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
               <img
                 src={imgFive}
                 alt="imgFive"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left">
+                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -161,18 +161,18 @@ export const SectionFour = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2">
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
               <img
                 src={imgSix}
                 alt="imgSix"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left">
+                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -183,18 +183,18 @@ export const SectionFour = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2">
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
               <img
                 src={imgSeven}
                 alt="imgSeven"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left">
+                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -205,18 +205,18 @@ export const SectionFour = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2">
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
               <img
                 src={imgEight}
                 alt="imgEight"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left">
+                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -227,18 +227,18 @@ export const SectionFour = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2">
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
               <img
                 src={imgNine}
                 alt="imgNine"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left">
+                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -249,18 +249,18 @@ export const SectionFour = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2">
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
               <img
                 src={imgTen}
                 alt="imgTen"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left">
+                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>

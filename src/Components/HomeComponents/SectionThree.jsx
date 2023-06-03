@@ -7,12 +7,12 @@ import portoImg from "../../Images/porto.jpg";
 
 export const SectionThree = () => {
   return (
-    <div className="py-14 flex flex-col gap-16  rounded-lg px-28 2xl:px-20 xl:py-10 xl:px-10 lg:items-center lg:py-6">
-      <h3 className="text-gray-900 font-bold text-5xl font-serif xl:text-4xl">
+    <div className="py-14 flex flex-col gap-16  rounded-lg px-28 2xl:px-20 xl:py-10 xl:px-10 lg:items-center lg:py-6 sm:gap-10">
+      <h3 className="text-gray-900 font-bold text-5xl font-serif xl:text-4xl sm:text-2xl">
         Top Selling Travel Packages
       </h3>
-      <div className="flex justify-around gap-10 2xl:gap-6 lg:grid lg:grid-cols-2 lg:grid-flow-row lg:gap-y-12 lg:w-max lg:gap-16">
-        <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100">
+      <div className="flex justify-around gap-10 2xl:gap-6 lg:grid lg:grid-cols-2 lg:grid-flow-row lg:gap-y-12 lg:w-max lg:gap-16 sm:flex sm:flex-col sm:gap-6 sm:gap-y-6 sm:w-full">
+        <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100 sm:w-full">
           <img
             src={kigaliImg}
             alt="kigaliImg"
@@ -32,7 +32,7 @@ export const SectionThree = () => {
           </div>
         </div>
 
-        <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100">
+        <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100 sm:w-full">
           <img
             src={riyadhImg}
             alt="riyadhImg"
@@ -51,7 +51,7 @@ export const SectionThree = () => {
             </div>
           </div>
         </div>
-        <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100">
+        <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100 sm:w-full">
           <img
             src={manchesterImg}
             alt="manchesterImg"
@@ -70,7 +70,7 @@ export const SectionThree = () => {
             </div>
           </div>
         </div>
-        <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100">
+        <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100 sm:w-full">
           <img
             src={portoImg}
             alt="portoImg"

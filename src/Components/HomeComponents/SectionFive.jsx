@@ -12,12 +12,12 @@ import { Autoplay } from "swiper";
 
 export const SectionFive = () => {
   return (
-    <div className="py-24 flex flex-col gap-16  rounded-lg  bg-white mx-28 2xl:mx-16 xl:mx-10 xl:py-10 lg:mx-0 lg:gap-10">
-      <h3 className="text-gray-900 font-bold text-6xl font-serif 2xl:text-5xl xl:text-4xl">
+    <div className="py-24 flex flex-col gap-16  rounded-lg  bg-white mx-28 2xl:mx-16 xl:mx-10 xl:py-10 lg:mx-0 lg:gap-10 sm:py-6 sm:px-4">
+      <h3 className="text-gray-900 font-bold text-6xl font-serif 2xl:text-5xl xl:text-4xl md:text-2xl">
         Check What Our Clients are Saying
       </h3>
-      <div className="flex gap-20 justify-center px-28 items-center xl:px-10 xl:gap-10">
-        <div className=" w-5/12 relative p-12 z-10 2xl:p-4 lg:p-1">
+      <div className="flex gap-20 justify-center px-28 items-center xl:px-10 xl:gap-10 md:px-4 md:gap-4 sm:flex-col sm:px-0">
+        <div className=" w-5/12 relative p-12 z-10 2xl:p-4 lg:p-1 sm:w-11/12">
           {/* <div className="absolute right-0 top-0 z-0 ">
             <VectorImg className="w-40 h-40 " />
           </div> */}
@@ -30,7 +30,7 @@ export const SectionFive = () => {
           />
         </div>
 
-        <div className=" w-6/12 h-max ">
+        <div className=" w-6/12 h-max sm:w-11/12">
           <Swiper
             spaceBetween={30}
             centeredSlides={true}
