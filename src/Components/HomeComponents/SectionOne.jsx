@@ -30,7 +30,7 @@ export const SectionOne = () => {
   };
 
   return (
-    <div className=" flex gap-20 py-10 text-left px-56 items-center 2xl:px-16 2xl:gap-0 2xl:justify-between xl:px-10 lg:flex-col-reverse lg:gap-8 sm:px-4">
+    <div className=" flex gap-20 py-10 text-left px-56 items-center 2xl:px-16 2xl:gap-0 2xl:justify-between xl:px-10 lg:flex-col lg:gap-8 sm:px-4">
       <div className="w-6/12 pr-16 lg:w-full lg:pr-0">
         <Swiper
           //   spaceBetween={30}
@@ -135,7 +135,7 @@ export const SectionOne = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="w-6/12 flex flex-col gap-8 xl:gap-5 lg:w-full">
+      <div className="w-6/12 flex flex-col gap-8 xl:gap-5 lg:w-full sm:text-center">
         <div className="flex flex-col gap-4 xl:gap-2">
           <h1 className="font-bold text-5xl text-gray-900 xl:text-4xl sm:text-2xl sm:font-semibold">
             Welcome To Crystalveey
@@ -145,7 +145,7 @@ export const SectionOne = () => {
             expert advice at Crystalveey.
           </p>
         </div>
-        <p className="text-gray-600 font-normal text-lg xl:text-base ">
+        <p className="text-gray-600 font-normal text-lg xl:text-base sm:font-light">
           Crystalveey is a unique platform that combines the worlds of charity,
           fashion, travel, and travel consultation. Discover our charitable
           initiatives, supporting communities and partnering with impactful
