@@ -1,7 +1,7 @@
 @tailwind base;
 
-.middle{
-  @apply  before:bg-slate-600  font-bold transition duration-500 ease-in-out;
+.middle {
+  @apply before:bg-slate-600  font-bold transition duration-500 ease-in-out;
 }
 
 @tailwind components;
@@ -11,9 +11,8 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.middle
-{
-    position: relative;
+.middle {
+  position: relative;
 }
 .middle:before {
   content: "";
@@ -40,29 +39,100 @@ body {
   --swiper-pagination-bullet-width: 16px !important;
   --swiper-pagination-bullet-height: 16px !important;
   --swiper-pagination-bullet-border-radius: 50% !important;
-  --swiper-pagination-bullet-inactive-color: #FFF !important;
+  --swiper-pagination-bullet-inactive-color: #fff !important;
   --swiper-pagination-bullet-inactive-opacity: 0.5 !important;
-  --swiper-pagination-color: #FFF !important;
+  --swiper-pagination-color: #fff !important;
   /* Add your additional styling */
   /* ... */
 }
 
-.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
   --swiper-pagination-bullet-horizontal-gap: 10px !important;
 }
 
-
-.swiper-button-next, .swiper-button-prev{
+.swiper-button-next,
+.swiper-button-prev {
   --swiper-navigation-color: #fff;
   --swiper-navigation-size: 50px;
 }
 
+.font-pro {
+  font-family: "Readex Pro", sans-serif;
+}
 
+.Ysabeau {
+  font-family: "Ysabeau", sans-serif;
+}
 
+@media screen and (max-width: 1279px) {
+  .swiper-pagination-bullet {
+    --swiper-pagination-bullet-width: 11px !important;
+    --swiper-pagination-bullet-height: 11px !important;
+  }
 
+  .swiper-pagination-horizontal.swiper-pagination-bullets
+    .swiper-pagination-bullet {
+    --swiper-pagination-bullet-horizontal-gap: 7px !important;
+  }
+}
 
+.hamburger {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  transition: all 0.25s;
+  position: relative;
+}
 
+.harburger-top,
+.harburger-middle,
+.harburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  transform: translate(0px);
+  transition: all 0.5s;
+}
+.harburger-middle {
+  transform: translateY(7px);
+}
+.harburger-bottom {
+  transform: translateY(14px);
+}
 
-.Ysabeau{
-  font-family: 'Ysabeau', sans-serif;
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+.open .harburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+.open .harburger-middle {
+  display: none;
+}
+.open .harburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+.sec4ImgH {
+  height: 500px;
+}
+
+.reviewImgH {
+  height: 400px;
+}
+
+@media screen and (max-width: 1279px) {
+  .sec4ImgH {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .reviewImgH {
+    height: 350px;
+  }
 }

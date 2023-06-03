@@ -16,13 +16,29 @@ import imgNine  from "../../Images/male-model-5.jpg";
 import imgTen from "../../Images/model-five.jpg";
 
 export const SectionFour = () => {
+  const breakpoints = {
+    // Define the breakpoints where you want to change the slidesPerView
+    300: {
+      slidesPerView: 1,
+      spaceBetween: 2,
+    },
+    639: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  };
   return (
-    <div className="py-14 px-14 flex flex-col gap-16   bg-gray-300 rounded-lg ml-28">
-      <h3 className="text-gray-900 font-bold text-5xl font-serif">
+    <div className="py-14 px-14 flex flex-col gap-16   bg-gray-50 rounded-lg mx-20 xl:mx-10 xl:gap-12 xl:px-8">
+      <h3 className="text-gray-900 font-bold text-5xl font-serif xl:text-4xl">
         Top Selling Designs
       </h3>
       <div className=" flex justify-center items-center">
         <Swiper
+          breakpoints={breakpoints}
           slidesPerView={3}
           spaceBetween={30}
           navigation={true}
@@ -38,8 +54,7 @@ export const SectionFour = () => {
               <img
                 src={imgTwo}
                 alt="imgTwo"
-                className=" w-96"
-                style={{ height: "500px" }}
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
@@ -51,11 +66,7 @@ export const SectionFour = () => {
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Add To Cart
-                </button>
-
-                <button className="text-gray-900 font-semibold text-base  text-left">
-                  Add To Wishlist
+                  Shop Now
                 </button>
               </div>
             </div>
@@ -65,8 +76,7 @@ export const SectionFour = () => {
               <img
                 src={imgOne}
                 alt="imgOne"
-                className=" w-96"
-                style={{ height: "500px" }}
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
@@ -78,11 +88,7 @@ export const SectionFour = () => {
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Add To Cart
-                </button>
-
-                <button className="text-gray-900 font-semibold text-base  text-left">
-                  Add To Wishlist
+                  Shop Now
                 </button>
               </div>
             </div>
@@ -93,8 +99,7 @@ export const SectionFour = () => {
               <img
                 src={imgThree}
                 alt="imgThree"
-                className=" w-96"
-                style={{ height: "500px" }}
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
@@ -106,11 +111,7 @@ export const SectionFour = () => {
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Add To Cart
-                </button>
-
-                <button className="text-gray-900 font-semibold text-base  text-left">
-                  Add To Wishlist
+                  Shop Now
                 </button>
               </div>
             </div>
@@ -120,8 +121,7 @@ export const SectionFour = () => {
               <img
                 src={imgFour}
                 alt="imgFour"
-                className=" w-96"
-                style={{ height: "500px" }}
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
@@ -133,11 +133,7 @@ export const SectionFour = () => {
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Add To Cart
-                </button>
-
-                <button className="text-gray-900 font-semibold text-base  text-left">
-                  Add To Wishlist
+                  Shop Now
                 </button>
               </div>
             </div>
@@ -147,8 +143,7 @@ export const SectionFour = () => {
               <img
                 src={imgFive}
                 alt="imgFive"
-                className=" w-96"
-                style={{ height: "500px" }}
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
@@ -160,11 +155,7 @@ export const SectionFour = () => {
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Add To Cart
-                </button>
-
-                <button className="text-gray-900 font-semibold text-base  text-left">
-                  Add To Wishlist
+                  Shop Now
                 </button>
               </div>
             </div>
@@ -174,8 +165,7 @@ export const SectionFour = () => {
               <img
                 src={imgSix}
                 alt="imgSix"
-                className=" w-96"
-                style={{ height: "500px" }}
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
@@ -187,11 +177,7 @@ export const SectionFour = () => {
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Add To Cart
-                </button>
-
-                <button className="text-gray-900 font-semibold text-base  text-left">
-                  Add To Wishlist
+                  Shop Now
                 </button>
               </div>
             </div>
@@ -201,8 +187,7 @@ export const SectionFour = () => {
               <img
                 src={imgSeven}
                 alt="imgSeven"
-                className=" w-96"
-                style={{ height: "500px" }}
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
@@ -214,11 +199,7 @@ export const SectionFour = () => {
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Add To Cart
-                </button>
-
-                <button className="text-gray-900 font-semibold text-base  text-left">
-                  Add To Wishlist
+                  Shop Now
                 </button>
               </div>
             </div>
@@ -228,8 +209,7 @@ export const SectionFour = () => {
               <img
                 src={imgEight}
                 alt="imgEight"
-                className=" w-96"
-                style={{ height: "500px" }}
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
@@ -241,11 +221,7 @@ export const SectionFour = () => {
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Add To Cart
-                </button>
-
-                <button className="text-gray-900 font-semibold text-base  text-left">
-                  Add To Wishlist
+                  Shop Now
                 </button>
               </div>
             </div>
@@ -255,8 +231,7 @@ export const SectionFour = () => {
               <img
                 src={imgNine}
                 alt="imgNine"
-                className=" w-96"
-                style={{ height: "500px" }}
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
@@ -268,11 +243,7 @@ export const SectionFour = () => {
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Add To Cart
-                </button>
-
-                <button className="text-gray-900 font-semibold text-base  text-left">
-                  Add To Wishlist
+                  Shop Now
                 </button>
               </div>
             </div>
@@ -282,8 +253,7 @@ export const SectionFour = () => {
               <img
                 src={imgTen}
                 alt="imgTen"
-                className=" w-96"
-                style={{ height: "500px" }}
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
@@ -295,11 +265,7 @@ export const SectionFour = () => {
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Add To Cart
-                </button>
-
-                <button className="text-gray-900 font-semibold text-base  text-left">
-                  Add To Wishlist
+                  Shop Now
                 </button>
               </div>
             </div>

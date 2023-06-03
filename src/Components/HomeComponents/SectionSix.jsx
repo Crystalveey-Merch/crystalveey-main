@@ -2,7 +2,7 @@ import React from "react";
 
 export const SectionSix = () => {
   return (
-    <div className="py-14 flex  gap-60 bg-slate-50  pl-72 text-left">
+    <div className="py-14 flex  gap-60 bg-slate-50  pl-72  text-left 2xl:pl-24 2xl:gap-32 xl:gap-16 xl:pl-10">
       <div className="flex flex-col gap-6 " style={{ width: "500px" }}>
         <h6 className="text-gray-700 font-semibold text-xl">
           Enjoy 15% off your first order
@@ -27,11 +27,12 @@ export const SectionSix = () => {
         </form>
       </div>
       <div className="flex flex-col gap-6 ">
-        <h6 className="text-gray-700 font-semibold text-xl">
+        <h6 className="text-gray-700 font-semibold text-xl xl:text-lg">
           Enjoy free $20 - $200 free with our referral program.
         </h6>
         <button
             className="px-4 py-2 h-12 rounded-lg bg-black text-white text-base font-normal hover:bg-gray-900 transition duration-300 ease-in-out w-max
+            xl:px-3 xl:text-sm xl:py-1
           "
           >
             Refer a friend

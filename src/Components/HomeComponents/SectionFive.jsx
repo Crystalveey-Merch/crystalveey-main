@@ -12,15 +12,12 @@ import { Autoplay } from "swiper";
 
 export const SectionFive = () => {
   return (
-    <div
-      className="py-24 flex flex-col gap-16  rounded-lg bg-gradient-to-br
-    from-gray-50 to-white mx-28 "
-    >
-      <h3 className="text-gray-900 font-bold text-6xl font-serif">
+    <div className="py-24 flex flex-col gap-16  rounded-lg  bg-white mx-28 2xl:mx-16 xl:mx-10 xl:py-10 lg:mx-0 lg:gap-10">
+      <h3 className="text-gray-900 font-bold text-6xl font-serif 2xl:text-5xl xl:text-4xl">
         Check What Our Clients are Saying
       </h3>
-      <div className="flex gap-20 justify-center px-28 items-center">
-        <div className=" w-5/12 relative p-12 z-10">
+      <div className="flex gap-20 justify-center px-28 items-center xl:px-10 xl:gap-10">
+        <div className=" w-5/12 relative p-12 z-10 2xl:p-4 lg:p-1">
           {/* <div className="absolute right-0 top-0 z-0 ">
             <VectorImg className="w-40 h-40 " />
           </div> */}
@@ -29,8 +26,7 @@ export const SectionFive = () => {
           <img
             src={reviewImg}
             alt="reviewImg"
-            className="w-full rounded-lg z-10 bg-gray-100"
-            style={{ height: "400px" }}
+            className="reviewImgH w-full rounded-lg z-10 bg-gray-100"
           />
         </div>
 
@@ -46,17 +42,17 @@ export const SectionFive = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className="flex gap-10 flex-col text-left  p-8">
-                <div className="flex flex-col gap-7">
-                  <QuoteImg className="w-7 h-7" />
+              <div className="flex gap-10 flex-col text-left  p-8 2xl:p-4 lg:gap-6 lg:p-1">
+                <div className="flex flex-col gap-7 lg:gap-4">
+                  <QuoteImg className="w-7 h-7 lg:h-6 lg:w-6" />
                   <div className="flex">
-                    <StarImg className="w-5 h-5" />
-                    <StarImg className="w-5 h-5" />
-                    <StarImg className="w-5 h-5" />
-                    <StarImg className="w-5 h-5" />
-                    <StarImg className="w-5 h-5" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
                   </div>
-                  <h4 className=" text-gray-600 font-medium text-2xl ">
+                  <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
                     I've been a customer of Explore Crystalveey for several
                     years now, and I've always been happy with their services.
                     They offer a wide variety of travel packages to choose from,
@@ -74,17 +70,17 @@ export const SectionFive = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex gap-10 flex-col text-left  p-8">
-                <div className="flex flex-col gap-7">
-                  <QuoteImg className="w-7 h-7" />
+              <div className="flex gap-10 flex-col text-left  p-8 2xl:p-4 lg:gap-6 lg:p-1">
+                <div className="flex flex-col gap-7 lg:gap-4">
+                  <QuoteImg className="w-7 h-7 lg:h-6 lg:w-6" />
                   <div className="flex">
-                    <StarImg className="w-5 h-5" />
-                    <StarImg className="w-5 h-5" />
-                    <StarImg className="w-5 h-5" />
-                    <StarImg className="w-5 h-5" />
-                    <StarImg className="w-5 h-5" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
                   </div>
-                  <h4 className=" text-gray-600 font-medium text-2xl ">
+                  <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
                     I recently took a trip to Africa with Explore Crystalveey,
                     and I was blown away by the beauty of the continent. I also
                     loved the opportunity to experience the rich culture and
@@ -102,17 +98,17 @@ export const SectionFive = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex gap-10 flex-col text-left  p-8">
-                <div className="flex flex-col gap-7">
-                  <QuoteImg className="w-7 h-7" />
+              <div className="flex gap-10 flex-col text-left  p-8 2xl:p-4 lg:gap-6 lg:p-1">
+                <div className="flex flex-col gap-7 lg:gap-4">
+                  <QuoteImg className="w-7 h-7 lg:h-6 lg:w-6" />
                   <div className="flex">
-                    <StarImg className="w-5 h-5" />
-                    <StarImg className="w-5 h-5" />
-                    <StarImg className="w-5 h-5" />
-                    <StarImg className="w-5 h-5" />
-                    <StarImg className="w-5 h-5" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
                   </div>
-                  <h4 className=" text-gray-600 font-medium text-2xl ">
+                  <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
                     I was looking for a special dress to wear to a wedding, and
                     I found the perfect one at Crystalveey's Atelier. The dress
                     was made from beautiful African fabric, and it was perfectly
@@ -120,10 +116,10 @@ export const SectionFive = () => {
                   </h4>
                 </div>
                 <div className="flex flex-col gap-1">
-                  <h5 className="text-gray-900 font-semibold text-lg">
+                  <h5 className="text-gray-900 font-semibold text-lg lg:text-base">
                     Tina Opara
                   </h5>
-                  <p className="text-gray-600 font-light text-base">
+                  <p className="text-gray-600 font-light text-base lg:text-sm">
                     Port Harcourt, Nigeria
                   </p>
                 </div>

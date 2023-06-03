@@ -4,7 +4,7 @@ import vecOne from "../Images/vec-one.png";
 
 export const Home = () => {
   return (
-    <div className="px28 text-center relative flex flex-col gap-20">
+    <div className="px28 text-center relative flex flex-col gap-20 xl:gap-16 lg:gap-12">
         <img src={vecOne} alt="vecOne" className="absolute right-0 w-96" />
         <SectionOne />
         <SectionTwo />

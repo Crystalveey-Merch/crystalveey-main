@@ -1,21 +1,23 @@
 import React from "react";
 import logo from "../Images/logo.jpg";
 import { ReactComponent as Logo } from "../Images/logo.svg";
+import { ReactComponent as Email } from "../Images/SocalSvgs/email.svg";
+import { ReactComponent as Call } from "../Images/SocalSvgs/call.svg";
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col gap-10 px-72 pt-16 pb-8">
-      <div className="flex justify-between">
-        {/* <div className="relative h-max">
-          <div className="w-max h-max rounded-lg bg-black ">
-            <img src={logo} alt="logo" className="h w-60 rounded-lg inline-block" />
-          </div>
-
-          <h4 className="Ysabeau text-sm font-medium text-white w-max bottom-2 absolute pl-2">
+    <div className="flex flex-col gap-10 px-20 pl-48 pt-16 pb-8 bg-gray-50 2xl:pl-20 xl:pl-7 sm:gap-6 sm:pl-4 sm:px-5">
+      <div className="flex justify-between pr-40 2xl:pr-16 xl:pr-7  lg:flex lg:flex-wrap lg:gap-16 sm:gap-8 sm:pr-0">
+        <div className="flex flex-col gap-4 w-64 lg:w-5/12 lg:order-1 sm:w-full">
+          <h2 className="font-bold text-4xl text-black font-pro sm:text-2xl">
+            {" "}
+            CRYSTALVEÉY
+          </h2>
+          <p className=" text-gray-800 font-semibold text-base xl:text-sm xl:font-medium">
             Fashion| Travel| Events| Consultations.
-          </h4>
-        </div> */}
-        <div className="flex gap-40 pr-28">
+          </p>
+        </div>
+        <div className="flex gap-40  2xl:gap-20 xl:gap-12 lg:w-full lg:order-3 lg:justify-between lg:pr-10 sm:flex-wrap">
           <ul className="flex flex-col gap-6 ">
             <li className="middle hover:text-gray-750 cursor-pointer w-max">
               Company
@@ -29,36 +31,46 @@ export const Footer = () => {
             <li className="middle text-gray-900 font-medium text-sm cursor-pointer w-max">
               Contact US
             </li>
-            {/* <li className="middle text-gray-900 font-medium text-sm cursor-pointer w-max">
-              Cookie Policy
-            </li>
-            <li className="middle text-gray-900 font-medium text-sm cursor-pointer w-max">
-              {" "}
-              Terms and Condition
-            </li> */}
           </ul>
           <ul className="flex flex-col gap-6 w-max">
             <li className="middle  hover:text-gray-750 cursor-pointer">
               Resources
             </li>
             <li className="middle text-gray-900 font-medium text-sm cursor-pointer w-max">
-              Cookie Policy
+              Blog
             </li>
             <li className="middle text-gray-900 font-medium text-sm cursor-pointer w-max">
               {" "}
-              Terms and Condition
+              Privacy Policy
             </li>
           </ul>
-          <div>
-            <h4 className=" text-gray-900 text-base font-semibold ">Address</h4>
-            <p></p>
-          </div>
-          <Logo className="h-24 w-60 " />
+          <ul className="flex flex-col gap-6 w-max">
+            <li className="middle  hover:text-gray-750 cursor-pointer">
+              Contact
+            </li>
+            <li className=" flex gap-1 items-center text-gray-900 font-medium text-sm cursor-pointer w-max">
+              <a
+                href="mailto:office.crystalveey@gmail.com"
+                className="hover:text-gray-750"
+              >
+                office.crystalveey@gmail.com
+              </a>
+            </li>
+            <li className=" flex gap-1 items-center text-gray-900 font-medium text-sm cursor-pointer w-max">
+              <a href="tel:+2548126091411" className="hover:text-gray-750">
+                +254 812 609 1411
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="lg:w-5/12 lg:order-2 sm:w-full">
+          <h4 className=" text-gray-900 text-base font-semibold ">Follow Us</h4>
+          <p></p>
         </div>
       </div>
       <div className=" border-gray-100 pt-6 text-center">
         <p className="font-semibold base">
-          &copy; {new Date().getFullYear()} Crystalveey
+          &copy; {new Date().getFullYear()} Explore Crystalveey
           <span className="text-gray-400 pl-2"> All Rights Reserved</span>
         </p>
       </div>

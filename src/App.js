@@ -6,7 +6,7 @@ import { Community, Home } from "./Pages";
 function App() {
   return (
     <div
-      className="App min-h-screen bg-gradient-to-tr from-gray-200 via-gray-200 to-gray-100"
+      className="App min-h-screen bg-white"
       // style={{ backgroundColor: "#f6f8ff" }}
     >
       {" "}
