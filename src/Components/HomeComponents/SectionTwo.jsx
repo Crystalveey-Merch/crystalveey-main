@@ -16,7 +16,9 @@ export const SectionTwo = () => {
       </h3>
       <div className="flex justify-around gap-10 2xl:gap-6 lg:grid lg:grid-cols-2 lg:grid-flow-row lg:gap-y-12 lg:justify-center lg:w-max sm:flex sm:flex-col sm:gap-6 sm:gap-y-6 sm:px-0 sm:w-full">
         <div className="relative flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80 sm:w-full ">
-          <p className="text-left text-white font-light text-base absolute z-10 left-4 bg-gray-600 top-4 p-2 rounded-tl-xl">Explore the world</p>
+          <p className="text-left text-white font-bold text-lg absolute z-10 left-4 bg-purple-800 top-4 p-2 pl-3 pr-8 rounded-tl-xl border-r-4 border-b-4 border-white shadow-md shadow-white">
+            Explore the world
+          </p>
           <img
             src={exploreImg}
             alt="exploreImg"
@@ -33,13 +35,16 @@ export const SectionTwo = () => {
             </p>
           </div>
           <button
-            className=" bg-sky-950 text-white font-medium text-base rounded-xl py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-sky-900
+            className=" bg-purple-600 text-white font-medium text-base rounded-xl py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-purple-700
           "
           >
             Learn More
           </button>
         </div>
-        <div className=" flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80  sm:w-full">
+        <div className="relative flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80  sm:w-full">
+          <p className="text-left text-white font-bold text-lg absolute z-10 left-4 bg-purple-800 top-4 p-2 pl-3 pr-8 rounded-tl-xl border-r-4 border-b-4 border-white shadow-md shadow-white">
+            Wear something new
+          </p>
           <img
             src={atelierImg}
             alt="exploreImg"
@@ -56,13 +61,16 @@ export const SectionTwo = () => {
             </p>
           </div>
           <button
-            className=" bg-sky-950 text-white font-medium text-base rounded-xl py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-sky-900
+            className=" bg-purple-600 text-white font-medium text-base rounded-xl py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-purple-700
           "
           >
             Learn More
           </button>
         </div>
-        <div className=" flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80  sm:w-full">
+        <div className="relative flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80  sm:w-full">
+          <p className="text-left text-white font-bold text-lg absolute z-10 left-4 bg-purple-800 top-4 p-2 pl-3 pr-8 rounded-tl-xl border-r-4 border-b-4 border-white shadow-md shadow-white">
+            Find your joyful balance
+          </p>
           <img
             src={wholesomeImg}
             alt="exploreImg"
@@ -79,13 +87,16 @@ export const SectionTwo = () => {
             </p>
           </div>
           <button
-            className=" bg-sky-950 text-white font-medium text-base rounded-xl py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-sky-900
+            className=" bg-purple-600 text-white font-medium text-base rounded-xl py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-purple-700
           "
           >
             Learn More
           </button>
         </div>
-        <div className=" flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80  sm:w-full">
+        <div className="relative flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl rounded-xl pb-7 px-4 py-4 lg:w-80  sm:w-full">
+          <p className="text-left text-white font-bold text-lg absolute z-10 left-4 bg-purple-800 top-4 p-2 pl-3 pr-8 rounded-tl-xl border-r-4 border-b-4 border-white shadow-md shadow-white">
+            Be a part of the breakthrough
+          </p>
           <img
             src={CvCImg}
             alt="exploreImg"
@@ -102,7 +113,7 @@ export const SectionTwo = () => {
             </p>
           </div>
           <button
-            className=" bg-sky-950 text-white font-medium text-base rounded-xl py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-sky-900
+            className=" bg-purple-600 text-white font-medium text-base rounded-xl py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-purple-700
           "
           >
             Learn More
