@@ -6,49 +6,49 @@ import { ReactComponent as Call } from "../Images/SocalSvgs/call.svg";
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col gap-10 px-20 pl-48 pt-16 pb-8 bg-gray-50 2xl:pl-20 xl:pl-7 sm:gap-6 sm:pl-4 sm:px-5">
+    <div className="flex Andis flex-col gap-10 px-20 pl-48 pt-16 pb-8 bg-black 2xl:pl-20 xl:pl-7 sm:gap-6 sm:pl-4 sm:px-5">
       <div className="flex justify-between pr-40 2xl:pr-16 xl:pr-7  lg:flex lg:flex-wrap lg:gap-16 sm:gap-8 sm:pr-0">
         <div className="flex flex-col gap-4 w-64 lg:w-5/12 lg:order-1 sm:w-full">
-          <h2 className="font-bold text-4xl text-black font-pro sm:text-2xl">
+          <h2 className="font-bold text-4xl text-white font-pro sm:text-2xl">
             {" "}
             CRYSTALVEÉY
           </h2>
-          <p className=" text-gray-800 font-semibold text-base xl:text-sm xl:font-medium">
+          <p className=" text-gray-300 font-semibold text-base xl:text-sm xl:font-medium">
             Fashion| Travel| Events| Consultations.
           </p>
         </div>
         <div className="flex gap-40  2xl:gap-20 xl:gap-12 lg:w-full lg:order-3 lg:justify-between lg:pr-10 sm:flex-wrap">
-          <ul className="flex flex-col gap-6 ">
-            <li className="middle hover:text-gray-750 cursor-pointer w-max">
+          <ul className="flex flex-col gap-6  text-gray-200">
+            <li className="middle hover:text-gray-400 text-lg cursor-pointer w-max">
               Company
             </li>
-            <li className="middle text-gray-900 font-medium text-sm cursor-pointer w-max">
+            <li className="middle hover:text-gray-400 fnt-medium text-lg cursor-pointer w-max">
               About Us
             </li>
-            <li className="middle text-gray-900 font-medium text-sm cursor-pointer w-max">
+            <li className="middle hover:text-gray-400 font-medium text-lg cursor-pointer w-max">
               FAQs
             </li>
-            <li className="middle text-gray-900 font-medium text-sm cursor-pointer w-max">
+            <li className="middle hover:text-gray-400 font-medium text-lg cursor-pointer w-max">
               Contact US
             </li>
           </ul>
-          <ul className="flex flex-col gap-6 w-max">
-            <li className="middle  hover:text-gray-750 cursor-pointer">
+          <ul className="flex flex-col gap-6 w-max text-white">
+            <li className="middle  hover:text-gray-400 cursor-pointer">
               Resources
             </li>
-            <li className="middle text-gray-900 font-medium text-sm cursor-pointer w-max">
+            <li className="middle  hover:text-gray-400 font-medium text-lg cursor-pointer w-max">
               Blog
             </li>
-            <li className="middle text-gray-900 font-medium text-sm cursor-pointer w-max">
+            <li className="middle  hover:text-gray-400 font-medium text-lg cursor-pointer w-max">
               {" "}
               Privacy Policy
             </li>
           </ul>
-          <ul className="flex flex-col gap-6 w-max">
-            <li className="middle  hover:text-gray-750 cursor-pointer">
+          <ul className="flex flex-col gap-6 w-max text-white">
+            <li className="middle  hover:text-gray-400 cursor-pointer">
               Contact
             </li>
-            <li className=" flex gap-1 items-center text-gray-900 font-medium text-sm cursor-pointer w-max">
+            <li className=" flex gap-1 items-center text-sky-600 font-medium text-lg cursor-pointer w-max">
               <a
                 href="mailto:office.crystalveey@gmail.com"
                 className="hover:text-gray-750"
@@ -56,7 +56,7 @@ export const Footer = () => {
                 office.crystalveey@gmail.com
               </a>
             </li>
-            <li className=" flex gap-1 items-center text-gray-900 font-medium text-sm cursor-pointer w-max">
+            <li className=" flex gap-1 items-center text-sky-600 font-medium text-lg cursor-pointer w-max">
               <a href="tel:+2548126091411" className="hover:text-gray-750">
                 +254 812 609 1411
               </a>
@@ -69,7 +69,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className=" border-gray-100 pt-6 text-center">
-        <p className="font-semibold base">
+        <p className="font-semibold base text-gray-400">
           &copy; {new Date().getFullYear()} Explore Crystalveey
           <span className="text-gray-400 pl-2"> All Rights Reserved</span>
         </p>

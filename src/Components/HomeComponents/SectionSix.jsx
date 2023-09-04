@@ -2,12 +2,12 @@ import React from "react";
 
 export const SectionSix = () => {
   return (
-    <div className="py-14 flex  gap-60 bg-slate-50  pl-72  text-left 2xl:pl-24 2xl:gap-32 xl:gap-16 xl:pl-10 md:flex-col md:pl-16 md:px-16 sm:pl-8 sm:px-8 md:gap-8">
+    <div  style={{backgroundColor:"#d7dde4"}}  className="py-14 flex  gap-60 bg-slate-50  pl-72  text-left 2xl:pl-24 2xl:gap-32 xl:gap-16 xl:pl-10 md:flex-col md:pl-16 md:px-16 sm:pl-8 sm:px-8 md:gap-8">
       <div className="sec6DW flex flex-col gap-6 md:gap-3" >
-        <h6 className="text-gray-700 font-semibold text-xl md:text-lg">
+        <h6 className="text-gray-700 font-semibold Aceh text-xl md:text-lg">
           Enjoy 15% off your first order
         </h6>
-        <p className="text-gray-600 font-normal text-base md:text-sm">
+        <p className="text-gray-600 font-normal text-xl md:text-sm">
           Claim your exclusive discount code when you subscribe to our emails.
           Terms and conditions apply
         </p>

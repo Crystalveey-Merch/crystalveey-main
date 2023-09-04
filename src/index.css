@@ -10,6 +10,19 @@
 body {
   font-family: "Inter", sans-serif;
 }
+@font-face {
+  font-family: "Andis";
+  src: local("Andis"),
+   url("./fonts/Andis Regular/Alternative files/JAM Type Design - Andis Regular.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+ @font-face {
+  font-family: "Aceh";
+  src: local("Aceh"),
+   url("./fonts/aceh-1/AcehSoft-Medium.ttf") format("truetype");
+  font-weight: bold;
+ }
 
 .middle {
   position: relative;

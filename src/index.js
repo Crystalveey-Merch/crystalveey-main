@@ -4,6 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import './fonts/Andis Regular/Alternative files/JAM Type Design - Andis Regular.ttf';
+import './fonts/aceh-1/AcehSoft-Medium.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

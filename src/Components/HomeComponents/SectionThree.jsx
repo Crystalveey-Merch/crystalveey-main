@@ -31,7 +31,7 @@ export const SectionThree = () => {
   };
   return (
     <div className="py-14 flex flex-col gap-16  rounded-lg px-28 2xl:px-20 xl:py-10 xl:px-10 lg:items-center lg:py-6 lg:px-20 md:px-4 sm:px-10 sm:gap-10">
-      <h3 className="text-gray-900 font-bold text-5xl font-serif xl:text-4xl sm:text-2xl">
+      <h3 className="text-gray-900  font-bold text-4xl Aceh xl:text-4xl sm:text-2xl">
         Top Selling Travel Packages
       </h3>
       <div className="flex justify-center items-center gap-10 w-full ">

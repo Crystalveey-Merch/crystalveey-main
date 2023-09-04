@@ -33,7 +33,7 @@ export const SectionFour = () => {
   };
   return (
     <div className="py-14 px-14 flex flex-col gap-16   bg-gray-50 rounded-lg mx-20 xl:mx-10 xl:gap-12 xl:px-8 sm:px-3 sm:mx-7">
-      <h3 className="text-gray-900 font-bold text-5xl font-serif xl:text-4xl md:text-2xl">
+      <h3 className="text-gray-900 font-bold text-4xl Aceh  xl:text-4xl md:text-2xl">
         Top Selling Designs
       </h3>
       <div className=" flex justify-center items-center">
@@ -61,7 +61,7 @@ export const SectionFour = () => {
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -83,7 +83,7 @@ export const SectionFour = () => {
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -106,7 +106,7 @@ export const SectionFour = () => {
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -128,7 +128,7 @@ export const SectionFour = () => {
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -150,7 +150,7 @@ export const SectionFour = () => {
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -172,7 +172,7 @@ export const SectionFour = () => {
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -194,7 +194,7 @@ export const SectionFour = () => {
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -216,7 +216,7 @@ export const SectionFour = () => {
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -238,7 +238,7 @@ export const SectionFour = () => {
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>
@@ -260,7 +260,7 @@ export const SectionFour = () => {
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
                     $295
                   </h3>
-                  <p className="text-gray-500 font-semibold text-sm font-serif text-left md:font-medium">
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
                     Hooded cotton sweatshirt
                   </p>
                 </div>

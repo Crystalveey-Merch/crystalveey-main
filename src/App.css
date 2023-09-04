@@ -18,7 +18,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.Andis{
+  font-family: "Andis",sans-serif;
+}
 
+.Aceh{
+  font-family: "Aceh",sans-serif;
+}
 .App-link {
   color: #61dafb;
 }
