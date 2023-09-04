@@ -190,18 +190,18 @@ export const SectionOne = () => {
           </SwiperSlide>
         </Swiper>
       </div>*/}
-      <div className="w-8/12 absolute z-10 sm:relative  sm:p-4 m-auto   top-80 bg-black/50 p-10 sm:top-0 flex flex-col gap-8 xl:gap-5 lg:w-full ">
+      <div className="w-8/12 absolute z-10 sm:relative sm:text-center sm:p-4 m-auto   top-80 bg-black/50 sm:bg-white sm:bg-black  p-10 sm:top-0 flex flex-col gap-8 xl:gap-5 lg:w-full ">
      
          <div className="flex flex-col gap-4 xl:gap-2">
-          <h1 className="font-bold text-5xl Aceh text-white xl:text-4xl sm:text-2xl sm:font-semibold">
+          <h1 className="font-bold text-5xl Aceh text-white sm:text-black xl:text-4xl sm:text-2xl sm:font-semibold">
             Welcome To Crystalveey
           </h1>
-          <p className="text-gray-300 Andis text-xl font-light text-base xl:text-sm italic">
+          <p className="text-gray-300 sm:text-gray-800 Andis text-xl font-light text-base xl:text-sm italic">
             Explore the intersection of philanthropy, style, adventure, and
             expert advice at Crystalveey.
           </p>
         </div>
-        <p className="text-gray-300 Andis text-xl sm:leading-5  xl:text-base sm:font-light">
+        <p className="text-white sm:text-black Andis text-xl sm:leading-5  xl:text-base sm:font-light">
           Crystalveey is a unique platform that combines the worlds of charity,
           fashion, travel, and travel consultation. Discover our charitable
           initiatives, supporting communities and partnering with impactful
@@ -220,9 +220,9 @@ export const SectionOne = () => {
      
     </div>
     <div className="text-black absolute flex text-2xl m-14 flex-col gap-10 right-0 z-30 top-80 sm:top-0 sm:gap-4 sm:text-xl sm:right-0 "> 
-      <FontAwesomeIcon icon={faFacebook} className="bg-white p-2 rounded"/>
-        <FontAwesomeIcon icon={faTwitter}  className="bg-white p-2 rounded"/>
-        <FontAwesomeIcon icon={faInstagram}  className="bg-white p-2 rounded"/>
+      <FontAwesomeIcon icon={faFacebook} className="bg-white/50 p-2 rounded"/>
+        <FontAwesomeIcon icon={faTwitter}  className="bg-white/50 p-2 rounded"/>
+        <FontAwesomeIcon icon={faInstagram}  className="bg-white/50 p-2 rounded"/>
         </div>
     </div>
   );

@@ -22,7 +22,7 @@ export const SectionTwo = () => {
           <img
             src={exploreImg}
             alt="exploreImg"
-            className=" w-full h-52"
+            className=" w-full h-52 text-black "
           />
           <p className="text-left text-white font-bold  absolute z-10 left-0 bg-black/75 top-40 w-full p-2 pl-3 pr-8   shadow-md ">
             Explore the world
@@ -40,10 +40,12 @@ export const SectionTwo = () => {
           </div>
           <button
            style={{backgroundColor:"#d7dde4"}} 
-            className="  text-slate-800 font-medium  Aceh  py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-purple-700
+            className=" text-slate-800 font-medium  Aceh  py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-black
           "
           >
+          <span className="">
             Learn More
+            </span>
           </button>
         </div>
         <div className="relative flex flex-col items-center w-96 gap-4 bg-gradient-to-br from-green-50 via-white to-gray-200 shadow-2xl  pb-7   lg:w-80 sm:w-full">
