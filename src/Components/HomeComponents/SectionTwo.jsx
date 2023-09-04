@@ -33,7 +33,7 @@ export const SectionTwo = () => {
               Explore Crystalveey{" "}
              
             </h4>
-            <p className="text-slate-600 Andis font-light text-lg xl:text-sm">
+            <p className="text-slate-800 Andis font-light text-lg xl:text-sm">
               Explore Crystalveey is a fashion brand that specializes in
               African-inspired clothing and accessories.
             </p>
@@ -59,10 +59,10 @@ export const SectionTwo = () => {
           />
           <div className=" flex flex-col gap-4 px-4">
           <Fashion className="w-10 h-10 inline-block m-auto  xl:w-6 xl:h-6" />
-            <h4 className="text-black font-bold text-2xl Aceh xl:text-xl">
+            <h4 className="text-black font-bold text-xl Aceh xl:text-xl">
               Crystalveey's Atelier{" "}
             </h4>
-            <p className="text-slate-600 Andis font-light text-lg xl:text-sm">
+            <p className="text-slate-800 Andis font-light text-lg xl:text-sm">
               Explore Crystalveey is a fashion brand that specializes in
               African-inspired clothing and accessories.
             </p>
@@ -86,10 +86,10 @@ export const SectionTwo = () => {
           />
           <div className=" flex flex-col gap-4 px-4">
           <Community className="w-10 h-10 inline-block m-auto  xl:w-6 xl:h-6" />
-            <h4 className="text-black font-bold text-2xl Aceh xl:text-xl">
+            <h4 className="text-black font-bold text-xl Aceh xl:text-xl">
               Wholesome{" "}
             </h4>
-            <p className="text-slate-600 Andis font-light text-lg xl:text-sm">
+            <p className="text-slate-800 Andis font-light text-lg xl:text-sm">
               Explore Crystalveey is a fashion brand that specializes in
               African-inspired clothing and accessories.
             </p>
@@ -113,10 +113,10 @@ export const SectionTwo = () => {
           />
           <div className=" flex flex-col gap-4 px-4">
           <Charity className="w-10 h-10 inline-block m-auto  xl:w-6 xl:h-6" />
-            <h4 className="text-black font-bold text-2xl Aceh xl:text-xl">
+            <h4 className="text-black font-bold text-xl Aceh xl:text-xl">
               CVC Charity{" "}
             </h4>
-            <p className="text-slate-600 Andis font-light text-lg xl:text-sm">
+            <p className="text-slate-800 Andis font-light text-lg xl:text-sm">
               Explore Crystalveey is a fashion brand that specializes in
               African-inspired clothing and accessories.
             </p>
