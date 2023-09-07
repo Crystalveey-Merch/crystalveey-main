@@ -53,19 +53,18 @@ export const SectionFive = () => {
                     <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
                   </div>
                   <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
-                    I've been a customer of Explore Crystalveey for several
-                    years now, and I've always been happy with their services.
-                    They offer a wide variety of travel packages to choose from,
-                    and their customer service is excellent.
+                    Vacation is expensive but God bless explore Crystalveey for me.
+                    Initially when I saw their cost in comparison to other people, I was
+                    like its too cheap to be flawless but then I had an amazing
+                    experience. The tour guide went over and above to make sure we
+                    had a good time,
                   </h4>
                 </div>
                 <div className="flex flex-col gap-1">
                   <h5 className="text-gray-900 font-semibold text-lg">
-                    Tolulope Ajayi
+                    Jennifer
                   </h5>
-                  <p className="text-gray-600 font-light text-base">
-                    Lagos, Nigeria
-                  </p>
+
                 </div>
               </div>
             </SwiperSlide>
@@ -81,19 +80,18 @@ export const SectionFive = () => {
                     <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
                   </div>
                   <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
-                    I recently took a trip to Africa with Explore Crystalveey,
-                    and I was blown away by the beauty of the continent. I also
-                    loved the opportunity to experience the rich culture and
-                    history of Africa.
+                    hello Vicky, how are you doing? I’ve been so sleepy since we got
+                    back. I really want to extend my gratitude to you on our trip. I
+                    really enjoyed myself and thank you for making it stress free for
+                    us.
+                    Again, I will be making my trip with you now
                   </h4>
                 </div>
                 <div className="flex flex-col gap-1">
                   <h5 className="text-gray-900 font-semibold text-lg">
-                    Mary Jane
+                    Stephanie
                   </h5>
-                  <p className="text-gray-600 font-light text-base">
-                    Madeira, Portugal
-                  </p>
+
                 </div>
               </div>
             </SwiperSlide>
@@ -109,19 +107,62 @@ export const SectionFive = () => {
                     <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
                   </div>
                   <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
-                    I was looking for a special dress to wear to a wedding, and
-                    I found the perfect one at Crystalveey's Atelier. The dress
-                    was made from beautiful African fabric, and it was perfectly
-                    tailored to my figure.
+                    I had the best time thanks to youuuu. The vacation was worth it.
+                    Two countries on that budget? That was a steal!
                   </h4>
                 </div>
                 <div className="flex flex-col gap-1">
                   <h5 className="text-gray-900 font-semibold text-lg lg:text-base">
-                    Tina Opara
+                    Faith
                   </h5>
-                  <p className="text-gray-600 font-light text-base lg:text-sm">
-                    Port Harcourt, Nigeria
-                  </p>
+
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex gap-10 flex-col text-left  p-8 2xl:p-4 lg:gap-6 lg:p-1">
+                <div className="flex flex-col gap-7 lg:gap-4">
+                  <QuoteImg className="w-7 h-7 lg:h-6 lg:w-6" />
+                  <div className="flex">
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                  </div>
+                  <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
+                    Thanks so very much. I had fun and the trip was truly worth it
+                  </h4>
+                </div>
+                <div className="flex flex-col gap-1">
+                  <h5 className="text-gray-900 font-semibold text-lg lg:text-base">
+                    Davidson
+                  </h5>
+
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex gap-10 flex-col text-left  p-8 2xl:p-4 lg:gap-6 lg:p-1">
+                <div className="flex flex-col gap-7 lg:gap-4">
+                  <QuoteImg className="w-7 h-7 lg:h-6 lg:w-6" />
+                  <div className="flex">
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                  </div>
+                  <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
+                    It was a niceeeeeeee experience! Thank you so so much for
+                    being helpful
+                  </h4>
+                </div>
+                <div className="flex flex-col gap-1">
+                  <h5 className="text-gray-900 font-semibold text-lg lg:text-base">
+                    Anjola
+                  </h5>
+
                 </div>
               </div>
             </SwiperSlide>
