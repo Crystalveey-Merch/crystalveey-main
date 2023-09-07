@@ -75,8 +75,8 @@ export const SectionThree = () => {
                   <p className="font-light text-sm text-gray-900">
                     7 Days Trip
                   </p>
-                  <span className="text-gray-900">
-                    <FontAwesomeIcon icon={faCalendar} className="text-white" />{" "}
+                  <span className="text-black">
+                    <FontAwesomeIcon icon={faCalendar} className="" />{" "}
                     10th-16th Nov. 2023
                   </span>
                 </div>
@@ -99,7 +99,7 @@ export const SectionThree = () => {
                     </form>
                     <h3 className="font-bold text-3xl ">Zanzibar</h3>
                     <span className="flex m-auto  w-full justify-center">
-                      <FontAwesomeIcon icon={faTicket} className="" />
+                      <FontAwesomeIcon icon={faTicket} className="bg-black" />
                       <span className="">
                         <p className="font-medium text-xl text-green-600">₦1.8M (early bird)  </p>
                         <p className="text-red-600 text-center"> ₦2.1M (late bird)</p>
@@ -109,26 +109,26 @@ export const SectionThree = () => {
 
 
                     <span className="flex gap-4 sm:block">
-                    <span>
-                      <p className="py-4 text-left text-xl  ">
-                        Package inclusions
-                      </p>
-                      <hr></hr>
+                      <span>
+                        <p className="py-4 text-left text-xl  ">
+                          Package inclusions
+                        </p>
+                        <hr></hr>
 
-                      <ol className="text-left  text-l">
-                        <li>-&gt; 4 star hotel in Dar Es
-                          Salaam</li>
-                        <li>-&gt; Beach front resort in
-                          Zanziber</li>
-                        <li>-&gt; Return flight tickets</li>
-                        <li>-&gt; Daily breakfasts</li>
-                        <li>-&gt; Tour & activities </li>
-                        <li>-&gt; Airport transfers
-                        </li>
+                        <ol className="text-left  text-l">
+                          <li>-&gt; 4 star hotel in Dar Es
+                            Salaam</li>
+                          <li>-&gt; Beach front resort in
+                            Zanziber</li>
+                          <li>-&gt; Return flight tickets</li>
+                          <li>-&gt; Daily breakfasts</li>
+                          <li>-&gt; Tour & activities </li>
+                          <li>-&gt; Airport transfers
+                          </li>
 
-                      </ol>
-                    </span>
-                    
+                        </ol>
+                      </span>
+
                       <span>
                         <p className="py-4 text-left text-xl ">
                           Activities & tours
@@ -168,17 +168,117 @@ export const SectionThree = () => {
               <div className="px-5 flex flex-col gap-5">
                 <div className="flex justify-between">
                   <h5 className="font-semibold text-base text-gray-900">
-                    Riyadh, Saudi Arabia
+                    Kenya & Rwanda
                   </h5>
-                  <p className="font-medium text-sm text-gray-900">$5,42k</p>
+                  <span className="text-right">
+                    <p className="font-medium text-xl text-green-600">N 1.6M (early bird)  </p>
+
+
+                  </span>
                 </div>
-                <div className="flex gap-4">
+                <div className="flex gap-2">
                   <Kite className="w-5 h-5 text-green-800" />
                   <p className="font-light text-sm text-gray-900">
-                    10 Days Trip
+                    7 Days Trip
                   </p>
+                  <span className="text-black">
+                    <FontAwesomeIcon icon={faCalendar} className="" />{" "}
+                    Dec 28th – 3rd Jan
+
+                  </span>
                 </div>
+                <button
+                  className="btn"
+                  onClick={() =>
+                    document.getElementById("my_modal_1").showModal()
+                  }
+                >
+                  View Details
+                </button>
+
+                <dialog id="my_modal_1" className="modal w-full text-white bg-grey">
+                  <div className="modal-box bg-grey-800">
+                    <form method="dialog">
+                      {/* if there is a button in form, it will close the modal */}
+                      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                        ✕
+                      </button>
+                    </form>
+                    <h3 className="font-bold text-3xl ">kenya & Rwanda</h3>
+                    <span className="flex m-auto  w-full justify-center">
+                      <FontAwesomeIcon icon={faTicket} className="bg-black" />
+                      <span className="">
+                        <p className="font-medium text-xl text-green-600">₦1.6M (early bird)  </p>
+
+
+                      </span>
+                      <span className="text-gray-900">
+                    <FontAwesomeIcon icon={faCalendar} className="text-black" />{" "}
+                    Dec 28th – 3rd Jan
+
+                  </span>
+                    </span>
+
+
+                    <span className="flex gap-4 sm:block">
+                      <span>
+                        <p className="py-4 text-left text-xl  ">
+                          Package inclusions
+                        </p>
+                        <hr></hr>
+
+                        <ol className="text-left  text-l">
+                          <li>-&gt; Flights</li>
+                          <li>-&gt; Hotels</li>
+                          <li>-&gt; Daily Brakefast</li>
+                          <li>-&gt; Tours</li>
+                          <li>-&gt; Airport transfers </li>
+                        </ol>
+                      </span>
+
+                      <span>
+                        <p className="py-4 text-left text-xl ">
+                          Kenya Activities & tours
+                        </p>
+                        <hr></hr>
+                        <ol className="text-left  text-l">
+                          <li>-&gt; Nairobi city tour</li>
+                          <li>-&gt; Giraffe centre</li>
+                          <li>-&gt; Maasai costume
+                            & dance</li>
+                          <li>-&gt;National
+                            museum</li>
+                          <li>-&gt; Nairobi nightlife </li>
+
+                        </ol>
+                      </span>
+                      <span>
+                        <p className="py-4 text-left text-xl ">
+                          Rwanda
+                          activities &
+                          tours
+                        </p>
+                        <hr></hr>
+                        <ol className="text-left  text-l">
+                          <li>-&gt; Kigali city tour</li>
+                          <li>-&gt; Gisenyi city
+                            tour</li>
+                          <li>-&gt; Genocide
+                            memorial</li>
+                          <li>-&gt; Zip lining </li>
+
+
+                        </ol>
+                      </span>
+                    </span>
+
+                    <button className="btn my-10">Book Now</button>
+
+                  </div>
+
+                </dialog>
               </div>
+
             </div>
           </SwiperSlide>
           <SwiperSlide>
