@@ -33,7 +33,7 @@ export const SectionThree = () => {
     },
   };
   return (
-    <div className="py-14 m-10 flex flex-col gap-16  rounded-lg px-28 2xl:px-20 xl:py-10 xl:px-10 lg:items-center lg:py-6 lg:px-20 md:px-4 sm:px-10 sm:gap-10">
+    <div className="py-14 m-10 flex flex-col gap-16  rounded-lg sm:px-2 px-28 2xl:px-20 xl:py-10 xl:px-10 lg:items-center lg:py-6 lg:px-20 md:px-4  sm:gap-10">
       <h3 className="text-gray-900  font-bold text-4xl Aceh xl:text-4xl sm:text-2xl">
         Top Selling Travel Packages
       </h3>
@@ -62,7 +62,7 @@ export const SectionThree = () => {
                   <h5 className="font-semibold  text-base text-gray-900">
                     Zanzibar
                   </h5>
-                  <hr style={{height:"20px", width:"1px"}} className=" bg-black"/>
+                  <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="">
                     <p className="font-bold text-xl text-green-600">
                       ₦1.8M (early bird){" "}
@@ -83,14 +83,14 @@ export const SectionThree = () => {
                 </div>
                 {/* You can open the modal using document.getElementById('ID').showModal() method */}
                 <button
-                  className="btn"
+                  className="btn bg-black text-white"
                   onClick={() =>
                     document.getElementById("my_modal_3").showModal()
                   }
                 >
                   View Details
                 </button>
-                <dialog id="my_modal_3" className="modal  text-white ">
+                <dialog id="my_modal_3" className="modal  text-black dark:text-white">
                   <div className="modal-box bg-grey-300 w-fit">
                     <form method="dialog">
                       {/* if there is a button in form, it will close the modal */}
@@ -110,10 +110,10 @@ export const SectionThree = () => {
                         </p>
                       </span>
                     </span>
-                    <span className="text-white m-2 text-xl text-left">
-                    <FontAwesomeIcon icon={faCalendar} className="" /> 10th-16th
-                    Nov. 2023
-                  </span>
+                    <span className="dark:text-white m-2 text-xl text-left">
+                      <FontAwesomeIcon icon={faCalendar} className="" /> 10th-16th
+                      Nov. 2023
+                    </span>
                     <span className="flex gap-4 sm:block">
                       <span>
                         <p className="py-4 text-left text-xl  ">
@@ -148,7 +148,7 @@ export const SectionThree = () => {
                       </span>
                     </span>
 
-                    <button className="btn my-10">Book Now</button>
+                    <button className="btn my-10 bg-black text-white">Book Now</button>
                   </div>
                 </dialog>
               </div>
@@ -166,7 +166,7 @@ export const SectionThree = () => {
                   <h5 className="font-semibold text-base text-gray-900">
                     Kenya & Rwanda
                   </h5>
-                  <hr style={{height:"20px", width:"1px"}} className=" bg-black"/>
+                  <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right">
                     <p className="font-bold text-xl text-green-600">
                       N 1.6M (early bird){" "}
@@ -187,7 +187,7 @@ export const SectionThree = () => {
                 </div>
 
                 <button
-                  className="btn"
+                  className="btn bg-black text-white"
                   onClick={() =>
                     document.getElementById("my_modal_1").showModal()
                   }
@@ -197,7 +197,7 @@ export const SectionThree = () => {
 
                 <dialog
                   id="my_modal_1"
-                  className="modal w-screen text-white bg-grey"
+                  className="modal w-screen text-black dark:text-white bg-grey"
                 >
                   <div className="modal-box bg-grey-800 w-full">
                     <form method="dialog">
@@ -213,12 +213,12 @@ export const SectionThree = () => {
                         ₦1.6M (early bird){" "}
                       </p>
 
-                      
+
                     </span>
-                    <span className="text-white text-xl ">
-                        <FontAwesomeIcon icon={faCalendar} className="" /> Dec
-                        28th – 3rd Jan
-                      </span>
+                    <span className=" dark:text-white text-xl ">
+                      <FontAwesomeIcon icon={faCalendar} className="" /> Dec
+                      28th – 3rd Jan
+                    </span>
                     <span className="flex gap-4 sm:block ">
                       <span>
                         <p className="py-4 text-left text-xl  ">
@@ -264,7 +264,7 @@ export const SectionThree = () => {
                       </span>
                     </span>
 
-                    <button className="btn my-10">Book Now</button>
+                    <button className="btn my-10 bg-black text-white">Book Now</button>
                   </div>
                 </dialog>
               </div>
@@ -282,7 +282,7 @@ export const SectionThree = () => {
                   <h5 className="font-semibold text-base text-gray-900">
                     Kenya & Rwanda
                   </h5>
-                  <hr style={{height:"20px", width:"1px"}} className=" bg-black"/>
+                  <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right">
                     <p className="font-bold text-xl text-green-600">
                       N 1.2M (early bird){" "}
@@ -303,7 +303,7 @@ export const SectionThree = () => {
                 </div>
 
                 <button
-                  className="btn"
+                  className="btn bg-black text-white"
                   onClick={() =>
                     document.getElementById("my_modal_2").showModal()
                   }
@@ -313,7 +313,7 @@ export const SectionThree = () => {
 
                 <dialog
                   id="my_modal_2"
-                  className="modal w-screen text-white bg-grey"
+                  className="modal w-screen text-black dark:text-white bg-grey"
                 >
                   <div className="modal-box bg-grey-800 w-full">
                     <form method="dialog">
@@ -333,12 +333,12 @@ export const SectionThree = () => {
                         ₦2.1M (late bird)
                       </p>
 
-                     
+
                     </span>
                     <span className="text-white text-xl ">
-                        <FontAwesomeIcon icon={faCalendar} className="" /> Dec
-                        28th – 3rd Jan
-                      </span>
+                      <FontAwesomeIcon icon={faCalendar} className="" /> Dec
+                      28th – 3rd Jan
+                    </span>
                     <span className="flex gap-4 sm:block ">
                       <span>
                         <p className="py-4 text-left text-xl  ">
@@ -384,7 +384,7 @@ export const SectionThree = () => {
                       </span>
                     </span>
 
-                    <button className="btn my-10">Book Now</button>
+                    <button className="btn my-10 bg-black text-white">Book Now</button>
                   </div>
                 </dialog>
               </div>
@@ -402,7 +402,7 @@ export const SectionThree = () => {
                   <h5 className="font-semibold text-base text-gray-900">
                     Ghana
                   </h5>
-                  <hr style={{height:"20px", width:"1px"}} className=" bg-black"/>
+                  <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right">
                     <p className="font-medium text-xl text-green-600">
                       ₦750k - ₦850K
@@ -422,17 +422,17 @@ export const SectionThree = () => {
                 </div>
 
                 <button
-                  className="btn"
+                  className="btn bg-black text-white"
                   onClick={() =>
-                    document.getElementById("my_modal_2").showModal()
+                    document.getElementById("my_modal_5").showModal()
                   }
                 >
                   View Details
                 </button>
 
                 <dialog
-                  id="my_modal_2"
-                  className="modal w-screen text-white bg-grey"
+                  id="my_modal_5"
+                  className="modal w-screen text-black dark:text-white bg-grey"
                 >
                   <div className="modal-box bg-grey-800 w-full">
                     <form method="dialog">
@@ -443,19 +443,21 @@ export const SectionThree = () => {
                     </form>
                     <h3 className="font-bold text-3xl ">Ghana</h3>
 
-                    <span className="flex justify-center m-auto gap-5">
+                    <span className="flex flex-col justify-center m-auto gap-2">
                       <p className="font-medium text-xl text-green-600">
-                        ₦1.6M (early bird){" "}
+                        ₦850K (per person sharing- flight / flight){" "}
                       </p>
-                      <p className="text-red-600 text-center">
+                      <p className="text-red-600 text-xl text-center">
                         {" "}
-                        ₦2.1M (late bird)
+
+                        ₦750K (per person sharing- road / flight)
                       </p>
 
-                      <span className="text-white text-xl ">
-                        <FontAwesomeIcon icon={faCalendar} className="" /> Dec
-                        28th – 3rd Jan
-                      </span>
+
+                    </span>
+                    <span className="text-black dark:text-white text-xl ">
+                      <FontAwesomeIcon icon={faCalendar} className="" /> Dec
+                      28th – 3rd Jan
                     </span>
 
                     <span className="flex gap-4 sm:block ">
@@ -476,35 +478,24 @@ export const SectionThree = () => {
 
                       <span>
                         <p className="py-4 text-left text-xl ">
-                          Kenya Activities & tours
-                        </p>
-                        <hr></hr>
-                        <ol className="text-left  text-l">
-                          <li>-&gt; Nairobi city tour</li>
-                          <li>-&gt; Giraffe centre</li>
-                          <li>-&gt; Maasai costume & dance</li>
-                          <li>-&gt;National museum</li>
-                          <li>-&gt; Nairobi nightlife </li>
-                        </ol>
-                      </span>
-                      <span>
-                        <p className="py-4 text-left text-xl ">
-                          Rwanda activities & tours
+                          Activities & tours
                         </p>
                         <hr></hr>
                         <ol className="text-left  text-l">
                           <li>-&gt; Accra city tour</li>
-                          <li>-&gt; Nkwame Nkrumah museum</li>
+                          <li>-&gt; Nkwame Nkrumah 
+museum</li>
                           <li>-&gt; Labedi beach</li>
                           <li>-&gt; Rope course & zip lining</li>
-                          <li>-&gt; Canopy walk.</li>
+                          <li>-&gt; Canopy walk </li>
                           <li>-&gt; Osu sightseeing</li>
                           <li>-&gt; Games night</li>
                         </ol>
                       </span>
+                     
                     </span>
 
-                    <button className="btn my-10">Book Now</button>
+                    <button className="btn my-10 bg-black text-white">Book Now</button>
                   </div>
                 </dialog>
               </div>
@@ -522,10 +513,10 @@ export const SectionThree = () => {
                   <h5 className="font-semibold text-base text-gray-900">
                     Lebanon
                   </h5>
-                  <hr style={{height:"20px", width:"1px"}} className=" bg-black"/>
+                  <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right">
                     <p className="font-bold text-xl text-green-600">
-                      ₦1.7M, ₦1.95M 
+                      ₦1.7M - ₦1.95M
                     </p>
                   </span>
                 </div>
@@ -537,12 +528,12 @@ export const SectionThree = () => {
                     </p>
                   </span>
                   <span className="text-black m-2 text-left">
-                    <FontAwesomeIcon icon={faCalendar} className="" /> 23rd – 29th dec
+                    <FontAwesomeIcon icon={faCalendar} className="" /> 23rd – 29th Dec 2023
                   </span>
                 </div>
 
                 <button
-                  className="btn"
+                  className="btn bg-black text-white"
                   onClick={() =>
                     document.getElementById("my_modal_4").showModal()
                   }
@@ -552,7 +543,7 @@ export const SectionThree = () => {
 
                 <dialog
                   id="my_modal_4"
-                  className="modal w-screen text-white bg-grey"
+                  className="modal w-screen text-black dark:text-white bg-grey"
                 >
                   <div className="modal-box bg-grey-800 w-full">
                     <form method="dialog">
@@ -563,7 +554,7 @@ export const SectionThree = () => {
                     </form>
                     <h3 className="font-bold text-3xl ">Lebanon</h3>
 
-                    <span className="flex  justify-center m-auto gap-5">
+                    <span className="flex  justify-center m-2 gap-5 ">
                       <p className="font-medium text-xl text-green-600">
                         ₦1.7M (double occupancy)
                       </p>
@@ -573,12 +564,11 @@ export const SectionThree = () => {
                         occupancy)
                       </p>
 
-                    
+
                     </span>
-                    <span className="text-white text-xl ">
-                        <FontAwesomeIcon icon={faCalendar} className="" /> Dec
-                        28th – 3rd Jan
-                      </span>
+                    <span className="dark:text-white text-xl ">
+                      <FontAwesomeIcon icon={faCalendar} className="" /> 23rd – 29th Dec 2023
+                    </span>
                     <span className="flex gap-4 sm:block ">
                       <span>
                         <p className="py-4 text-left text-xl  ">
@@ -613,7 +603,7 @@ export const SectionThree = () => {
 
                     </span>
 
-                    <button className="btn my-10">Book Now</button>
+                    <button className="btn my-10 bg-black text-white">Book Now</button>
                   </div>
                 </dialog>
               </div>
@@ -629,12 +619,12 @@ export const SectionThree = () => {
               <div className="px-5 flex flex-col gap-4">
                 <div className="flex justify-between">
                   <h5 className="font-semibold text-base text-gray-900">
-                  Mauritus
+                    Mauritus
                   </h5>
-                  <hr style={{height:"20px", width:"1px"}} className=" bg-black"/>
+                  <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right">
                     <p className="font-bold text-xl text-green-600">
-                      ₦1.95M (per person sharing)
+                      ₦1.95M / person
                     </p>
                   </span>
                 </div>
@@ -646,12 +636,12 @@ export const SectionThree = () => {
                     </p>
                   </span>
                   <span className="text-black m-2 text-left">
-                    <FontAwesomeIcon icon={faCalendar} className="" /> Nov 29th-4th Dec
+                    <FontAwesomeIcon icon={faCalendar} className="" /> Nov 29th-4th Dec 2023
                   </span>
                 </div>
 
                 <button
-                  className="btn"
+                  className="btn bg-black text-white"
                   onClick={() =>
                     document.getElementById("my_modal_5").showModal()
                   }
@@ -720,7 +710,7 @@ export const SectionThree = () => {
 
                     </span>
 
-                    <button className="btn my-10">Book Now</button>
+                    <button className="btn my-10 bg-black text-white">Book Now</button>
                   </div>
                 </dialog>
               </div>
