@@ -36,7 +36,7 @@ export const Header = () => {
         <ul className="flex justify-center Andis text-lg items-center gap-16 2xl:gap-14 xl:gap-4 lg:hidden">
           <li>
             <Link
-              to="/"
+              to="http://explore-crystalveey.vercel.app" target="_blank"
               className="middle text-gray-200    hover:text-gray-400 xl:text-sm"
             >
               Book A Trip
@@ -44,7 +44,7 @@ export const Header = () => {
           </li>
           <li>
             <Link
-              to="/"
+              to="http://attelier.vercel.app/" target="_blank"
               className="middle text-gray-200    font-semibold hover:text-gray-400 xl:text-sm"
             >
               Wear Something New
@@ -92,7 +92,7 @@ export const Header = () => {
           <ul className="flex flex-col gap-5 pt-6">
             <li className="border-b border-gray-700 pb-3">
               <Link
-                to="/"
+                to="http://explore-crystalveey.vercel.app" target="_blank"
                 className="middle  text-base  font-semibold hover:text-gray-750 sm:text-sm"
               >
                 Book A Trip
@@ -100,7 +100,7 @@ export const Header = () => {
             </li>
             <li className="border-b border-gray-700 pb-3">
               <Link
-                to="/"
+                to="http://attelier.vercel.app/" target="_blank"
                 className="middle  text-base  font-semibold hover:text-gray-750 sm:text-sm"
               >
                 Wear Something New

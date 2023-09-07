@@ -37,68 +37,68 @@ export const SectionOne = () => {
     <div className="  text-left  items-center 
   
   ">
-      
-        <Swiper
-          slidesPerView={1}
-          // spaceBetween={30}
-          breakpoints={breakpoints}
-          loop={true}
-          // direction={"vertical"}
-          pagination={{
-            clickable: true,
-          }}
-          autoplay={{
-            delay: 4000,
-            disableOnInteraction: false,
-          }}
-          // navigation={true}
-          modules={[Pagination, Navigation, Autoplay]}
-          className="mySwiper z-0 swiper-v h-full"
-        >
-          <SwiperSlide><img
-            src={imgSix}
-            alt="imgSeven"
-            className="h-full w-screen  shadow-lg " /></SwiperSlide>
 
-          <SwiperSlide><img
-            src={imgEleven}
-            alt="imgSeven"
-            style={{}}
-            className="h-full w-screen  shadow-lg " /></SwiperSlide>
-          <SwiperSlide>
-            <img
-              src={imgEight}
-              alt="fashion"
-              className=" h-full w-screen shadow-lg  " /></SwiperSlide>
-          <SwiperSlide>
-            <img
-              src={imgTwo}
-              alt="imgTwo"
-              className=" h-full w-screen  shadow-lg  " /></SwiperSlide>
-          <SwiperSlide><img
-            src={imgTen}
-            alt="imgTen"
-            className=" h-full w-screen  shadow-lg " /></SwiperSlide>
-          <SwiperSlide><img
-            src={imgOne}
-            alt="imgTen"
-            className=" h-full w-screen  shadow-lg " /></SwiperSlide>
-          <SwiperSlide><img
-            src={imgThree}
-            alt="imgTen"
-            className=" h-full w-screen  shadow-lg " /></SwiperSlide>
-          <SwiperSlide><img
-            src={imgFour}
-            alt="imgTen"
-            className=" h-full w-screen  shadow-lg " /></SwiperSlide>
-          <SwiperSlide><img
-            src={imgFive}
-            alt="imgTen"
-            className=" h-full w-screen  shadow-lg " /></SwiperSlide>
+      <Swiper
+        slidesPerView={1}
+        // spaceBetween={30}
+        breakpoints={breakpoints}
+        loop={true}
+        // direction={"vertical"}
+        pagination={{
+          clickable: true,
+        }}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
+        // navigation={true}
+        modules={[Pagination, Navigation, Autoplay]}
+        className="mySwiper z-0 swiper-v h-full"
+      >
+        <SwiperSlide><img
+          src={imgSix}
+          alt="imgSeven"
+          className="h-full w-screen  shadow-lg " /></SwiperSlide>
 
-        </Swiper>
-     
-      
+        <SwiperSlide><img
+          src={imgEleven}
+          alt="imgSeven"
+          style={{}}
+          className="h-full w-screen  shadow-lg " /></SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={imgEight}
+            alt="fashion"
+            className=" h-full w-screen shadow-lg  " /></SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={imgTwo}
+            alt="imgTwo"
+            className=" h-full w-screen  shadow-lg  " /></SwiperSlide>
+        <SwiperSlide><img
+          src={imgTen}
+          alt="imgTen"
+          className=" h-full w-screen  shadow-lg " /></SwiperSlide>
+        <SwiperSlide><img
+          src={imgOne}
+          alt="imgTen"
+          className=" h-full w-screen  shadow-lg " /></SwiperSlide>
+        <SwiperSlide><img
+          src={imgThree}
+          alt="imgTen"
+          className=" h-full w-screen  shadow-lg " /></SwiperSlide>
+        <SwiperSlide><img
+          src={imgFour}
+          alt="imgTen"
+          className=" h-full w-screen  shadow-lg " /></SwiperSlide>
+        <SwiperSlide><img
+          src={imgFive}
+          alt="imgTen"
+          className=" h-full w-screen  shadow-lg " /></SwiperSlide>
+
+      </Swiper>
+
+
       <div className="w-8/12 absolute lg:top-40 z-10 sm:relative sm:text-center sm:p-4 m-auto   top-80 bg-black/50 sm:bg-white sm:bg-black  p-10 sm:top-0 flex flex-col gap-8 xl:gap-5 lg:w-full ">
 
         <div className="flex flex-col gap-4 xl:gap-2">
@@ -111,10 +111,15 @@ export const SectionOne = () => {
           </p>
         </div>
         <p className="text-white sm:text-black Andis text-xl sm:leading-5  xl:text-base sm:font-light">
-          Crystalveey is a unique platform that combines the exciting worlds of travel, fashion, charity and community, encompassing a fashion brand, a charity organization, 
-          a community for Nigerians to connect and a travel company offering affordable vacation packages to various destinations, including flight arrangements, visa and hotel bookings. 
-          We provide travel consultations and organize events for all occasions, ranging from company retreats, to birthdays, proposals and honeymoons. We have a trusted team of talented individuals 
-          readily available to ensure that every experience is unforgettable.
+          Crystalveey   is   a   portfolio   company   encompassing   a   fashion
+          merchandize   and   re-commerce   brand   that   produces   quality
+          clothing for both male and female, a like-minded community that
+          fuses   the   worlds   of   adventure,   fun   and   healthy   lifestyle   and   a
+          travel agency that offers affordable vacation packages to various
+          destinations.   We   also   provide   consultations   and   an   all-in-one
+          resource for exceptional travel and event package. Our team of
+          trusted   professionals   are   readily   available   to   ensure   every
+          experience is nothing short of the best.
         </p>
       </div>
       {/* <div className="text-black absolute flex text-2xl m-14 flex-col gap-10 right-0 z-30 top-80 sm:top-0 sm:gap-4 sm:text-xl sm:right-0 ">
