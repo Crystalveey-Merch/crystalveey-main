@@ -62,8 +62,9 @@ export const SectionThree = () => {
                   <h5 className="font-semibold  text-base text-gray-900">
                     Zanzibar
                   </h5>
+                  <hr style={{height:"20px", width:"1px"}} className=" bg-black"/>
                   <span className="">
-                    <p className="font-medium text-xl text-green-600">
+                    <p className="font-bold text-xl text-green-600">
                       ₦1.8M (early bird){" "}
                     </p>
                   </span>
@@ -99,18 +100,20 @@ export const SectionThree = () => {
                     </form>
                     <h3 className="font-bold text-3xl ">Zanzibar</h3>
                     <span className="flex m-auto  w-full justify-center">
-                      <FontAwesomeIcon icon={faTicket} className="bg-black" />
-                      <span className="">
+                      <span className="flex gap-4">
                         <p className="font-medium text-xl text-green-600">
                           ₦1.8M (early bird){" "}
                         </p>
-                        <p className="text-red-600 text-center">
+                        <p className="text-red-600 text-xl text-center">
                           {" "}
                           ₦2.1M (late bird)
                         </p>
                       </span>
                     </span>
-
+                    <span className="text-white m-2 text-xl text-left">
+                    <FontAwesomeIcon icon={faCalendar} className="" /> 10th-16th
+                    Nov. 2023
+                  </span>
                     <span className="flex gap-4 sm:block">
                       <span>
                         <p className="py-4 text-left text-xl  ">
@@ -163,8 +166,9 @@ export const SectionThree = () => {
                   <h5 className="font-semibold text-base text-gray-900">
                     Kenya & Rwanda
                   </h5>
+                  <hr style={{height:"20px", width:"1px"}} className=" bg-black"/>
                   <span className="text-right">
-                    <p className="font-medium text-xl text-green-600">
+                    <p className="font-bold text-xl text-green-600">
                       N 1.6M (early bird){" "}
                     </p>
                   </span>
@@ -205,16 +209,16 @@ export const SectionThree = () => {
                     <h3 className="font-bold text-3xl ">kenya & Rwanda</h3>
 
                     <span className="flex justify-center m-auto gap-5">
-                      <p className="font-medium text-xl text-green-600">
+                      <p className="font-bold text-xl text-green-600">
                         ₦1.6M (early bird){" "}
                       </p>
 
-                      <span className="text-white text-xl ">
+                      
+                    </span>
+                    <span className="text-white text-xl ">
                         <FontAwesomeIcon icon={faCalendar} className="" /> Dec
                         28th – 3rd Jan
                       </span>
-                    </span>
-
                     <span className="flex gap-4 sm:block ">
                       <span>
                         <p className="py-4 text-left text-xl  ">
@@ -278,8 +282,9 @@ export const SectionThree = () => {
                   <h5 className="font-semibold text-base text-gray-900">
                     Kenya & Rwanda
                   </h5>
+                  <hr style={{height:"20px", width:"1px"}} className=" bg-black"/>
                   <span className="text-right">
-                    <p className="font-medium text-xl text-green-600">
+                    <p className="font-bold text-xl text-green-600">
                       N 1.2M (early bird){" "}
                     </p>
                   </span>
@@ -320,20 +325,20 @@ export const SectionThree = () => {
                     <h3 className="font-bold text-3xl ">kenya & Rwanda</h3>
 
                     <span className="flex justify-center m-auto gap-5">
-                      <p className="font-medium text-xl text-green-600">
+                      <p className="font-bold text-xl text-green-600">
                         ₦1.6M (early bird){" "}
                       </p>
-                      <p className="text-red-600 text-center">
+                      <p className="text-red-600 text-xl text-center">
                         {" "}
                         ₦2.1M (late bird)
                       </p>
 
-                      <span className="text-white text-xl ">
+                     
+                    </span>
+                    <span className="text-white text-xl ">
                         <FontAwesomeIcon icon={faCalendar} className="" /> Dec
                         28th – 3rd Jan
                       </span>
-                    </span>
-
                     <span className="flex gap-4 sm:block ">
                       <span>
                         <p className="py-4 text-left text-xl  ">
@@ -393,14 +398,14 @@ export const SectionThree = () => {
                 className="w-full h-60 rounded-t-xl"
               />
               <div className="px-5 flex flex-col gap-4">
-                <div className="flex justify-between">
+                <div className="flex gap-2 justify-between">
                   <h5 className="font-semibold text-base text-gray-900">
                     Ghana
                   </h5>
+                  <hr style={{height:"20px", width:"1px"}} className=" bg-black"/>
                   <span className="text-right">
-                    <p className="font-medium text-l text-green-600">
-                      ₦850K (Flight),
-                      ₦750K (Road)
+                    <p className="font-medium text-xl text-green-600">
+                      ₦750k - ₦850K
                     </p>
                   </span>
                 </div>
@@ -506,7 +511,7 @@ export const SectionThree = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100 sm:w-full">
+            <div className="w-72 shadow-xl h-2/5 rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100 sm:w-full">
               <img
                 src={riyadhImg}
                 alt="riyadhImg"
@@ -517,11 +522,10 @@ export const SectionThree = () => {
                   <h5 className="font-semibold text-base text-gray-900">
                     Lebanon
                   </h5>
+                  <hr style={{height:"20px", width:"1px"}} className=" bg-black"/>
                   <span className="text-right">
-                    <p className="font-medium text-l text-green-600">
-                      ₦1.7M (double occupancy),
-                      ₦1.95M (single
-                      occupancy)
+                    <p className="font-bold text-xl text-green-600">
+                      ₦1.7M, ₦1.95M 
                     </p>
                   </span>
                 </div>
@@ -559,22 +563,22 @@ export const SectionThree = () => {
                     </form>
                     <h3 className="font-bold text-3xl ">Lebanon</h3>
 
-                    <span className="flex justify-center m-auto gap-5">
+                    <span className="flex  justify-center m-auto gap-5">
                       <p className="font-medium text-xl text-green-600">
                         ₦1.7M (double occupancy)
                       </p>
-                      <p className="text-red-600 text-center">
+                      <p className="text-red-600   text-xl text-center">
                         {" "}
                         ₦1.95M (single
                         occupancy)
                       </p>
 
-                      <span className="text-white text-xl ">
+                    
+                    </span>
+                    <span className="text-white text-xl ">
                         <FontAwesomeIcon icon={faCalendar} className="" /> Dec
                         28th – 3rd Jan
                       </span>
-                    </span>
-
                     <span className="flex gap-4 sm:block ">
                       <span>
                         <p className="py-4 text-left text-xl  ">
@@ -627,8 +631,9 @@ export const SectionThree = () => {
                   <h5 className="font-semibold text-base text-gray-900">
                   Mauritus
                   </h5>
+                  <hr style={{height:"20px", width:"1px"}} className=" bg-black"/>
                   <span className="text-right">
-                    <p className="font-medium text-l text-green-600">
+                    <p className="font-bold text-xl text-green-600">
                       ₦1.95M (per person sharing)
                     </p>
                   </span>
