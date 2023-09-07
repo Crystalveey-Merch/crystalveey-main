@@ -1,9 +1,12 @@
 import React from "react";
 
+import { ReactComponent as Community } from "../../Images/community.svg";
+
 export const SectionSix = () => {
   return (
-    <div  style={{backgroundColor:"#d7dde4"}}  className="py-14 flex  gap-60 bg-slate-50  pl-72  text-left 2xl:pl-24 2xl:gap-32 xl:gap-16 xl:pl-10 md:flex-col md:pl-16 md:px-16 sm:pl-8 sm:px-8 md:gap-8">
-      <div className="sec6DW flex flex-col gap-6 md:gap-3" >
+    <div  style={{backgroundColor:"#d7dde4"}}  className="m-auto py-20 px-20 w-4/5 sm:w-full sm:px-10">
+      <div className=" flex text-center flex-col gap-2 md:gap-3" >
+      <Community className="w-10 h-10 inline-block m-auto  xl:w-6 xl:h-6" />
         <h6 className="text-gray-700 font-semibold Aceh text-xl md:text-lg">
         JOIN WHOLESOME COMMUNITY
         </h6>
@@ -12,7 +15,7 @@ export const SectionSix = () => {
         </p>
         <button
             className="px-4 py-2 h-12 rounded-lg bg-black text-white text-base font-normal hover:bg-gray-900 transition duration-300 ease-in-out w-max
-            xl:px-3 xl:text-sm xl:py-1 md:px-3 md:text-sm md:h-10 md:w-max
+            xl:px-3 xl:text-sm xl:py-1 md:px-3 md:text-sm md:h-10 md:w-max m-auto 
           "
           >
             Join Wholesome

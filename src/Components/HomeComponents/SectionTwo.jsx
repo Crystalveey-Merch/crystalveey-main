@@ -39,7 +39,7 @@ export const SectionTwo = () => {
 
             </span>
 
-            <p className="text-slate-800 Andis font-light text-lg xl:text-sm">
+            <p className="text-slate-800 Andis font-light text-lg xl:text-sm h-36 sm:text-2xl">
               A   first   choice   for   affordable   vacation
               packages   to   dream   destinations   and   event
               planning
@@ -75,7 +75,7 @@ export const SectionTwo = () => {
               <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-sky-400 opacity-75"></span>
 
             </span>
-            <p className="text-slate-800 Andis font-light text-lg xl:text-sm">
+            <p className="text-slate-800 Andis font-light text-lg xl:text-sm h-36 sm:text-2xl">
               A   fashion   haven   where   endless   possibilities
               are   created   with   an   array   of   unique   outfits
               that express individuality
@@ -109,7 +109,7 @@ export const SectionTwo = () => {
               <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-sky-400 opacity-75"></span>
 
             </span>
-            <p className="text-slate-800 Andis font-light text-lg xl:text-sm">
+            <p className="text-slate-800 Andis font-light text-lg xl:text-sm h-36 sm:text-2xl">
               A community for likeminded people who are
               passionate   about   living   a   fun,   healthy   and
               adventurous lifestyle.
@@ -142,7 +142,7 @@ export const SectionTwo = () => {
               <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-sky-400 opacity-75"></span>
 
             </span>
-            <p className="text-slate-800 Andis font-light text-lg xl:text-sm">
+            <p className="text-slate-800 Andis font-light text-lg xl:text-sm h-36 sm:text-2xl">
               A   non-profit   organization   dedicated   to
               making   positive   impacts   in   the   lives   of
               disadvantaged   individuals   and   communities

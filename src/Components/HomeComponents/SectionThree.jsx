@@ -57,25 +57,26 @@ export const SectionThree = () => {
                 alt="kigaliImg"
                 className="w-full h-60 rounded-t-xl"
               />
-              <div className="px-5 flex flex-col gap-5">
+              <div className="px-5 flex flex-col gap-4">
                 <div className="flex justify-between">
                   <h5 className="font-semibold  text-base text-gray-900">
                     Zanzibar
                   </h5>
                   <span className="">
                     <p className="font-medium text-xl text-green-600">₦1.8M (early bird)  </p>
-                    <p className="text-red-600 text-right"> ₦2.1M (late bird)</p>
 
                   </span>
 
 
                 </div>
-                <div className="flex gap-2 m-auto">
+                <div className="   text-left">
+                <span className="flex m-2">
                   <Kite className="w-5 h-5 text-green-800" />
                   <p className="font-light text-sm text-gray-900">
                     7 Days Trip
                   </p>
-                  <span className="text-black">
+                </span>
+                  <span className="text-black m-2 text-left">
                     <FontAwesomeIcon icon={faCalendar} className="" />{" "}
                     10th-16th Nov. 2023
                   </span>
@@ -89,8 +90,8 @@ export const SectionThree = () => {
                 >
                   View Details
                 </button>
-                <dialog id="my_modal_3" className="modal w-auto">
-                  <div className="modal-box bg-grey-300">
+                <dialog id="my_modal_3" className="modal  text-white ">
+                  <div className="modal-box bg-grey-300 w-fit">
                     <form method="dialog">
                       {/* if there is a button in form, it will close the modal */}
                       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -165,7 +166,7 @@ export const SectionThree = () => {
                 alt="riyadhImg"
                 className="w-full h-60 rounded-t-xl"
               />
-              <div className="px-5 flex flex-col gap-5">
+              <div className="px-5 flex flex-col gap-4">
                 <div className="flex justify-between">
                   <h5 className="font-semibold text-base text-gray-900">
                     Kenya & Rwanda
@@ -176,17 +177,19 @@ export const SectionThree = () => {
 
                   </span>
                 </div>
-                <div className="flex gap-2">
+                <div className="   text-left">
+                <span className="flex m-2">
                   <Kite className="w-5 h-5 text-green-800" />
                   <p className="font-light text-sm text-gray-900">
                     7 Days Trip
                   </p>
-                  <span className="text-black">
+                </span>
+                  <span className="text-black m-2 text-left">
                     <FontAwesomeIcon icon={faCalendar} className="" />{" "}
-                    Dec 28th – 3rd Jan
-
+                    Dec 28th – 3rd Jan 2023
                   </span>
                 </div>
+                
                 <button
                   className="btn"
                   onClick={() =>
@@ -196,8 +199,8 @@ export const SectionThree = () => {
                   View Details
                 </button>
 
-                <dialog id="my_modal_1" className="modal w-full text-white bg-grey">
-                  <div className="modal-box bg-grey-800">
+                <dialog id="my_modal_1" className="modal w-screen text-white bg-grey">
+                  <div className="modal-box bg-grey-800 w-full">
                     <form method="dialog">
                       {/* if there is a button in form, it will close the modal */}
                       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
@@ -205,22 +208,22 @@ export const SectionThree = () => {
                       </button>
                     </form>
                     <h3 className="font-bold text-3xl ">kenya & Rwanda</h3>
-                    <span className="flex m-auto  w-full justify-center">
-                      <FontAwesomeIcon icon={faTicket} className="bg-black" />
-                      <span className="">
+                    
+                      
+                      <span className="flex justify-center m-auto gap-5">
                         <p className="font-medium text-xl text-green-600">₦1.6M (early bird)  </p>
 
 
-                      </span>
-                      <span className="text-gray-900">
-                    <FontAwesomeIcon icon={faCalendar} className="text-black" />{" "}
+                    
+                      <span className="text-white text-xl ">
+                    <FontAwesomeIcon icon={faCalendar} className="" />{" "}
                     Dec 28th – 3rd Jan
 
                   </span>
                     </span>
 
 
-                    <span className="flex gap-4 sm:block">
+                    <span className="flex gap-4 sm:block ">
                       <span>
                         <p className="py-4 text-left text-xl  ">
                           Package inclusions
