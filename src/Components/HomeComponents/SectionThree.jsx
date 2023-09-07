@@ -97,7 +97,7 @@ export const SectionThree = () => {
                         ✕
                       </button>
                     </form>
-                    <h3 className="font-bold text-3xl">Zanzibar</h3>
+                    <h3 className="font-bold text-3xl ">Zanzibar</h3>
                     <span className="flex m-auto  w-full justify-center">
                       <FontAwesomeIcon icon={faTicket} className="" />
                       <span className="">
@@ -108,14 +108,14 @@ export const SectionThree = () => {
                     </span>
 
 
-                    <span className="flex gap-4">
+                    <span className="flex gap-4 sm:block">
                     <span>
-                      <p className="py-4 text-left text-2xl">
+                      <p className="py-4 text-left text-xl  ">
                         Package inclusions
                       </p>
                       <hr></hr>
 
-                      <ol className="text-left  text-xl">
+                      <ol className="text-left  text-l">
                         <li>-&gt; 4 star hotel in Dar Es
                           Salaam</li>
                         <li>-&gt; Beach front resort in
@@ -128,12 +128,13 @@ export const SectionThree = () => {
 
                       </ol>
                     </span>
+                    
                       <span>
-                        <p className="py-4 text-left text-2xl">
+                        <p className="py-4 text-left text-xl ">
                           Activities & tours
                         </p>
                         <hr></hr>
-                        <ol className="text-left  text-xl">
+                        <ol className="text-left  text-l">
                           <li>-&gt; Safari blu tour</li>
                           <li>-&gt; Stone town tour</li>
                           <li>-&gt; Ferry cruise</li>
