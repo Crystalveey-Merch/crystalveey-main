@@ -335,7 +335,7 @@ export const SectionThree = () => {
 
 
                     </span>
-                    <span className="text-white text-xl ">
+                    <span className="dark:text-white text-xl ">
                       <FontAwesomeIcon icon={faCalendar} className="" /> Dec
                       28th – 3rd Jan
                     </span>
