@@ -33,7 +33,7 @@ export const SectionTwo = () => {
             </h4>
             <span className="relative flex m-auto ">
               <p className="text-slate-800  italic font-bold text-center rounded-full bg-slate-300/25  w-auto px-4  ">
-                Explore the world
+                Explore the world!
               </p>
               <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-sky-400 opacity-75"></span>
 
@@ -70,7 +70,7 @@ export const SectionTwo = () => {
             </h4>
             <span className="relative flex m-auto ">
               <p className="text-slate-800  italic font-bold text-center rounded-full bg-slate-300/25  w-auto px-4  ">
-                Wear something new
+                Wear something new!
               </p>
               <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-sky-400 opacity-75"></span>
 
@@ -104,7 +104,7 @@ export const SectionTwo = () => {
             </h4>
             <span className="relative flex m-auto ">
               <p className="text-slate-800  italic font-bold text-center rounded-full bg-slate-300/25  w-auto px-4  ">
-                Find your joyful balance
+                Find your joyful balance!
               </p>
               <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-sky-400 opacity-75"></span>
 
@@ -137,7 +137,7 @@ export const SectionTwo = () => {
             </h4>
             <span className="relative flex m-auto ">
               <p className="text-slate-800  italic font-bold text-center rounded-full bg-slate-300/25  w-auto px-4  ">
-                Be a part of the breakthrough
+                Be a part of the breakthrough!
               </p>
               <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-sky-400 opacity-75"></span>
 

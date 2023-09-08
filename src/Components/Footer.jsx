@@ -1,8 +1,16 @@
 import React from "react";
-import logo from "../Images/logo.jpg";
-import { ReactComponent as Logo } from "../Images/logo.svg";
-import { ReactComponent as Email } from "../Images/SocalSvgs/email.svg";
-import { ReactComponent as Call } from "../Images/SocalSvgs/call.svg";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
+import reminato from "../Images/paertners/REMINATO.png"
+import covenant from "../Images/paertners/covenant.png"
+import airp from "../Images/paertners/airp.png"
+import turkey from "../Images/paertners/turkey.png"
+import awa from "../Images/paertners/awa.png"
+import qatar from "../Images/paertners/qatar.png"
+import kenya from "../Images/paertners/kenya.png"
+
+
+import "swiper/css";
 
 export const Footer = () => {
   return (
@@ -16,6 +24,44 @@ export const Footer = () => {
           <p className=" text-gray-300 font-semibold text-base xl:text-sm xl:font-medium">
             Fashion| Travel| Events| Consultations.
           </p>
+          <p>Partners:</p>
+          <Swiper
+          // breakpoints={breakpoints}
+          slidesPerView={3}
+          spaceBetween={1}
+          
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          modules={[Navigation, Autoplay, ]}
+          className="mySwiper py-10 text-white w-full"
+        >
+        <SwiperSlide className="text-white" >
+          <img src={turkey} alt="turkey" className="w-20 h-10"/>
+        </SwiperSlide>
+        <SwiperSlide className="text-white" >
+        <img src={reminato} alt="reminato" className="w-20 h-10"/>
+        </SwiperSlide>
+        <SwiperSlide className="text-white" >
+        <img src={airp} alt="airpeace" className="w-20 h-10"/>
+        </SwiperSlide>
+        <SwiperSlide className="text-white" >
+        <img src={covenant} alt="covenant" className="w-20 h-10"/>
+        </SwiperSlide>
+        <SwiperSlide className="text-white" >
+        <img src={kenya} alt="kenya" className="w-20 h-10"/>
+        </SwiperSlide>
+        
+        <SwiperSlide className="text-white" >
+        <img src={qatar} alt="qutar" className="w-20 h-10"/>
+        </SwiperSlide>
+        <SwiperSlide className="text-white" >
+        <img src={awa} alt="awa" className="w-20 h-10"/>
+        </SwiperSlide>
+        
+        </Swiper>
+
         </div>
         <div className="flex gap-40  2xl:gap-20 xl:gap-12 lg:w-full lg:order-3 lg:justify-between lg:pr-10 sm:flex-wrap">
           <ul className="flex flex-col gap-6  text-gray-200">
@@ -48,7 +94,7 @@ export const Footer = () => {
             <li className="middle  hover:text-gray-400 cursor-pointer">
               Contact
             </li>
-            <li className=" flex gap-1 items-center text-sky-600 font-medium text-lg cursor-pointer w-max">
+            <li className=" flex gap-1 items-center  font-medium text-lg cursor-pointer w-max" style={{color:"rgb(56 189 248)"}}>
               <a
                 href="mailto:office.crystalveey@gmail.com"
                 className="hover:text-gray-750"
@@ -56,8 +102,8 @@ export const Footer = () => {
                 office.crystalveey@gmail.com
               </a>
             </li>
-            <li className=" flex gap-1 items-center text-sky-600 font-medium text-lg cursor-pointer w-max">
-              <a href="tel:+2548126091411" className="hover:text-gray-750">
+            <li className=" flex gap-1 items-center  font-medium text-lg cursor-pointer w-max" style={{color:"rgb(56 189 248)"}} >
+              <a href="tel:+2548126091411" className="hover:text-gray-750" style={{color:"rgb(56 189 248)"}}>
                 +254 812 609 1411
               </a>
             </li>

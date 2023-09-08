@@ -7,10 +7,14 @@ import { ReactComponent as Kite } from "../../Images/kite.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendar } from "@fortawesome/free-regular-svg-icons";
 import { faTicket } from "@fortawesome/free-solid-svg-icons";
-import manchesterImg from "../../Images/manchester.jpg";
-import riyadhImg from "../../Images/riyadh.jpg";
-import kigaliImg from "../../Images/kigali.jpg";
-import portoImg from "../../Images/porto.jpg";
+import ghana from "../../Images/places/ghana.png";
+import zanbiza from "../../Images/places/zanbiza.png";
+import kenya1 from "../../Images/places/kenya1.png";
+import kenya2 from "../../Images/places/kenya2.png";
+import lebanon from "../../Images/places/lebanon.png";
+import mauritus from "../../Images/places/mauritos.png";
+
+
 
 export const SectionThree = () => {
   const breakpoints = {
@@ -40,7 +44,7 @@ export const SectionThree = () => {
       <div className="flex justify-center items-center gap-10 w-full  ">
         <Swiper
           breakpoints={breakpoints}
-          slidesPerView={4}
+          slidesPerView={3}
           spaceBetween={20}
           navigation={true}
           autoplay={{
@@ -51,15 +55,15 @@ export const SectionThree = () => {
           className="mySwiper py-10"
         >
           <SwiperSlide>
-            <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100 sm:w-full">
+            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
               <img
-                src={kigaliImg}
+                src={zanbiza}
                 alt="kigaliImg"
                 className="w-full h-60 rounded-t-xl"
               />
               <div className="px-5 flex flex-col gap-4">
                 <div className="flex justify-between">
-                  <h5 className="font-semibold  text-base text-gray-900">
+                  <h5 className="font-semibold Aceh text-base text-gray-900">
                     Zanzibar
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
@@ -155,15 +159,15 @@ export const SectionThree = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100 sm:w-full">
+            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
               <img
-                src={riyadhImg}
-                alt="riyadhImg"
+                src={kenya1}
+                alt=""
                 className="w-full h-60 rounded-t-xl"
               />
               <div className="px-5 flex flex-col gap-4">
                 <div className="flex justify-between">
-                  <h5 className="font-semibold text-base text-gray-900">
+                  <h5 className="font-semibold Aceh text-base text-gray-900">
                     Kenya & Rwanda
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
@@ -206,7 +210,7 @@ export const SectionThree = () => {
                         ✕
                       </button>
                     </form>
-                    <h3 className="font-bold text-3xl ">kenya & Rwanda</h3>
+                    <h3 className="font-bold text-3xl Aceh">kenya & Rwanda</h3>
 
                     <span className="flex justify-center m-auto gap-5">
                       <p className="font-bold text-xl text-green-600">
@@ -271,15 +275,15 @@ export const SectionThree = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100 sm:w-full">
+            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
               <img
-                src={riyadhImg}
-                alt="riyadhImg"
+                src={kenya2}
+                alt=""
                 className="w-full h-60 rounded-t-xl"
               />
               <div className="px-5 flex flex-col gap-4">
                 <div className="flex justify-between">
-                  <h5 className="font-semibold text-base text-gray-900">
+                  <h5 className="font-semibold Aceh text-base text-gray-900">
                     Kenya & Rwanda
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
@@ -322,7 +326,7 @@ export const SectionThree = () => {
                         ✕
                       </button>
                     </form>
-                    <h3 className="font-bold text-3xl ">kenya & Rwanda</h3>
+                    <h3 className="font-bold text-3xl Aceh ">kenya & Rwanda</h3>
 
                     <span className="flex justify-center m-auto gap-5">
                       <p className="font-bold text-xl text-green-600">
@@ -391,15 +395,15 @@ export const SectionThree = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100 sm:w-full">
+            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
               <img
-                src={riyadhImg}
-                alt="riyadhImg"
+                src={ghana}
+                alt=""
                 className="w-full h-60 rounded-t-xl"
               />
               <div className="px-5 flex flex-col gap-4">
                 <div className="flex gap-2 justify-between">
-                  <h5 className="font-semibold text-base text-gray-900">
+                  <h5 className="font-semibold Aceh text-base text-gray-900">
                     Ghana
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
@@ -441,7 +445,7 @@ export const SectionThree = () => {
                         ✕
                       </button>
                     </form>
-                    <h3 className="font-bold text-3xl ">Ghana</h3>
+                    <h3 className="font-bold text-3xl Aceh">Ghana</h3>
 
                     <span className="flex flex-col justify-center m-auto gap-2">
                       <p className="font-medium text-xl text-green-600">
@@ -502,15 +506,15 @@ museum</li>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-72 shadow-xl h-2/5 rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100 sm:w-full">
+            <div className="w-80 shadow-xl h-2/5 rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
               <img
-                src={riyadhImg}
-                alt="riyadhImg"
+                src={lebanon}
+                alt=""
                 className="w-full h-60 rounded-t-xl"
               />
               <div className="px-5 flex flex-col gap-4">
                 <div className="flex justify-between">
-                  <h5 className="font-semibold text-base text-gray-900">
+                  <h5 className="font-semibold Aceh text-base text-gray-900">
                     Lebanon
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
@@ -552,7 +556,7 @@ museum</li>
                         ✕
                       </button>
                     </form>
-                    <h3 className="font-bold text-3xl ">Lebanon</h3>
+                    <h3 className="font-bold Aceh text-3xl ">Lebanon</h3>
 
                     <span className="flex  justify-center m-2 gap-5 ">
                       <p className="font-medium text-xl text-green-600">
@@ -610,15 +614,15 @@ museum</li>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-72 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-blue-100 via-white to-purple-100 sm:w-full">
+            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
               <img
-                src={riyadhImg}
-                alt="riyadhImg"
+                src={mauritus}
+                alt=""
                 className="w-full h-60 rounded-t-xl"
               />
               <div className="px-5 flex flex-col gap-4">
                 <div className="flex justify-between">
-                  <h5 className="font-semibold text-base text-gray-900">
+                  <h5 className="font-semibold Aceh text-base text-gray-900">
                     Mauritus
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
@@ -660,7 +664,7 @@ museum</li>
                         ✕
                       </button>
                     </form>
-                    <h3 className="font-bold text-3xl ">Mauritus</h3>
+                    <h3 className="font-bold Aceh text-3xl ">Mauritus</h3>
 
                     <span className="flex justify-center m-auto gap-5">
                       <p className="font-medium text-xl  text-green-600">
