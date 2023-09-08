@@ -182,7 +182,7 @@ export const SectionThree = () => {
                   </span>
                   <span className="text-black m-2 text-left">
                     <FontAwesomeIcon icon={faCalendar} className="" /> Dec 28th
-                    – 3rd Jan 2023
+                    – 3rd Jan 2024
                   </span>
                 </div>
 
@@ -643,15 +643,15 @@ museum</li>
                 <button
                   className="btn bg-black text-white"
                   onClick={() =>
-                    document.getElementById("my_modal_5").showModal()
+                    document.getElementById("my_modal_6").showModal()
                   }
                 >
                   View Details
                 </button>
 
                 <dialog
-                  id="my_modal_5"
-                  className="modal w-screen text-white bg-grey"
+                  id="my_modal_6"
+                  className="modal w-screen text-black dark:text-white bg-grey"
                 >
                   <div className="modal-box bg-grey-800 w-full">
                     <form method="dialog">
@@ -663,16 +663,16 @@ museum</li>
                     <h3 className="font-bold text-3xl ">Mauritus</h3>
 
                     <span className="flex justify-center m-auto gap-5">
-                      <p className="font-medium text-xl text-green-600">
+                      <p className="font-medium text-xl  text-green-600">
                         ₦1.95M (per person sharing)
                       </p>
 
 
-                      <span className="text-white text-xl ">
+                      
+                    </span>
+                    <span className="dark:text-white text-xl ">
                         <FontAwesomeIcon icon={faCalendar} className="" /> Nov 29th-4th Dec 2023
                       </span>
-                    </span>
-
                     <span className="flex gap-4 sm:block ">
                       <span>
                         <p className="py-4 text-left text-xl  ">
