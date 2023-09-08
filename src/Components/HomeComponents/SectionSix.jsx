@@ -4,7 +4,7 @@ import { ReactComponent as Community } from "../../Images/community.svg";
 
 export const SectionSix = () => {
   return (
-    <div  style={{backgroundColor:"#d7dde4"}}  className="m-auto py-20 px-20 w-4/5 sm:w-full sm:px-10">
+    <div  style={{backgroundColor:"#d7dde4"}}  className="m-auto py-20 px-20 w-full sm:w-full sm:px-10">
       <div className=" flex text-center flex-col gap-2 md:gap-3" >
       <Community className="w-10 h-10 inline-block m-auto  xl:w-6 xl:h-6" />
         <h6 className="text-gray-700 font-semibold Aceh text-xl md:text-lg">
