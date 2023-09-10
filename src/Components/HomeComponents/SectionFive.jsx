@@ -90,11 +90,8 @@ export const SectionFive = () => {
                   </div>
                   <div className="badge badge-neutral">Explore Crystalveey</div>
                   <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
-                    hello Vicky, how are you doing? I’ve been so sleepy since we got
-                    back. I really want to extend my gratitude to you on our trip. I
-                    really enjoyed myself and thank you for making it stress free for
-                    us.
-                    Again, I will be making my trip with you now
+                    I really enjoyed myself, thank you for making it stress free for us.
+                    I will be making my trips with you from now on
                   </h4>
                   <div className="flex flex-col gap-1">
                     <h5 className="text-gray-900 Aceh font-bold text-lg">
@@ -124,12 +121,12 @@ export const SectionFive = () => {
                   </div>
                   <div className="badge badge-neutral">Crystalveey Atelier</div>
                   <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
-                  I saw the trousers and I absolutely love them! They fit perfectly. I will definitely be making another one.
+                    I saw the trousers and I absolutely love them! They fit perfectly. I will definitely be making another one.
 
                   </h4>
                   <div className="flex flex-col gap-1">
                     <h5 className="text-gray-900 Aceh font-bold text-lg">
-                    Sarah
+                      Sarah
                     </h5>
 
                   </div>
@@ -251,11 +248,11 @@ export const SectionFive = () => {
                   </div>
                   <div className="badge badge-neutral">Crystalveey Atelier</div>
                   <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
-                  I love the dress. Thank you so much
+                    I love the dress. Thank you so much
                   </h4>
                   <div className="flex flex-col gap-1">
                     <h5 className="text-gray-900 Aceh font-bold text-lg">
-                    Hachi
+                      Hachi
                     </h5>
 
                   </div>
