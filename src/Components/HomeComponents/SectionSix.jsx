@@ -5,7 +5,7 @@ import { ReactComponent as Community } from "../../Images/community.svg";
 export const SectionSix = () => {
   return (
     <div   className="m-auto bg-gray-50 flex sm:flex-col justify-center py-20 px-20 w-full sm:w-full sm:px-10">
-      <img src={community} alt="community" className="w-56 h-48 mx-10"/>
+      <img src={community} alt="community" className="w-60 h-48 mx-10"/>
       <div className=" flex sm:text-center text-left flex-col gap-2 md:gap-3" >
       {/* <img src={community} alt="community" className="w-56 h-48"/> */}
 

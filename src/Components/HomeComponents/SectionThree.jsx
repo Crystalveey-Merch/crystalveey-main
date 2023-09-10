@@ -31,10 +31,7 @@ export const SectionThree = () => {
       slidesPerView: 3,
       spaceBetween: 30,
     },
-    1440: {
-      slidesPerView: 4,
-      spaceBetween: 20,
-    },
+    
   };
   return (
     <div className="py-14 m-10 flex flex-col gap-16  rounded-lg sm:px-2 px-28 2xl:px-20 xl:py-10 xl:px-10 lg:items-center lg:py-6 lg:px-20 md:px-4  sm:gap-10">
@@ -62,8 +59,8 @@ export const SectionThree = () => {
                 className="w-full h-60 rounded-t-xl"
               />
               <div className="px-5 flex flex-col gap-4">
-                <div className="flex justify-between">
-                  <h5 className="font-semibold Aceh text-base text-gray-900">
+                <div className="flex justify-between Aceh">
+                  <h5 className="font-semibold  text-base text-gray-900">
                     Zanzibar
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
@@ -102,9 +99,9 @@ export const SectionThree = () => {
                         ✕
                       </button>
                     </form>
-                    <h3 className="font-bold text-3xl ">Zanzibar</h3>
+                    <h3 className="font-bold text-3xl Aceh ">Zanzibar</h3>
                     <span className="flex m-auto  w-full justify-center">
-                      <span className="flex gap-4">
+                      <span className="flex gap-4 Aceh">
                         <p className="font-medium text-xl text-green-600">
                           ₦1.8M (early bird){" "}
                         </p>
@@ -172,7 +169,7 @@ export const SectionThree = () => {
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right">
-                    <p className="font-bold text-xl text-green-600">
+                    <p className="font-bold text-xl Aceh text-green-600">
                       N 1.6M (early bird){" "}
                     </p>
                   </span>
@@ -213,7 +210,7 @@ export const SectionThree = () => {
                     <h3 className="font-bold text-3xl Aceh">kenya & Rwanda</h3>
 
                     <span className="flex justify-center m-auto gap-5">
-                      <p className="font-bold text-xl text-green-600">
+                      <p className="font-bold text-xl Aceh text-green-600">
                         ₦1.6M (early bird){" "}
                       </p>
 
@@ -288,7 +285,7 @@ export const SectionThree = () => {
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right">
-                    <p className="font-bold text-xl text-green-600">
+                    <p className="font-bold text-xl Aceh text-green-600">
                       N 1.2M (early bird){" "}
                     </p>
                   </span>
@@ -328,7 +325,7 @@ export const SectionThree = () => {
                     </form>
                     <h3 className="font-bold text-3xl Aceh ">kenya & Rwanda</h3>
 
-                    <span className="flex justify-center m-auto gap-5">
+                    <span className="flex justify-center m-auto Aceh gap-5">
                       <p className="font-bold text-xl text-green-600">
                         ₦1.6M (early bird){" "}
                       </p>
@@ -408,7 +405,7 @@ export const SectionThree = () => {
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right">
-                    <p className="font-medium text-xl text-green-600">
+                    <p className="font-medium text-xl  Aceh text-green-600">
                       ₦750k - ₦850K
                     </p>
                   </span>
@@ -447,7 +444,7 @@ export const SectionThree = () => {
                     </form>
                     <h3 className="font-bold text-3xl Aceh">Ghana</h3>
 
-                    <span className="flex flex-col justify-center m-auto gap-2">
+                    <span className="flex Aceh flex-col justify-center m-auto gap-2">
                       <p className="font-medium text-xl text-green-600">
                         ₦850K (per person sharing- flight / flight){" "}
                       </p>
@@ -519,7 +516,7 @@ museum</li>
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right">
-                    <p className="font-bold text-xl text-green-600">
+                    <p className="font-bold Aceh text-xl text-green-600">
                       ₦1.7M - ₦1.95M
                     </p>
                   </span>
@@ -558,7 +555,7 @@ museum</li>
                     </form>
                     <h3 className="font-bold Aceh text-3xl ">Lebanon</h3>
 
-                    <span className="flex  justify-center m-2 gap-5 ">
+                    <span className="flex Aceh  justify-center m-2 gap-5 ">
                       <p className="font-medium text-xl text-green-600">
                         ₦1.7M (double occupancy)
                       </p>
@@ -626,7 +623,7 @@ museum</li>
                     Mauritus
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
-                  <span className="text-right">
+                  <span className="text-right Aceh">
                     <p className="font-bold text-xl text-green-600">
                       ₦1.95M / person
                     </p>
@@ -667,7 +664,7 @@ museum</li>
                     <h3 className="font-bold Aceh text-3xl ">Mauritus</h3>
 
                     <span className="flex justify-center m-auto gap-5">
-                      <p className="font-medium text-xl  text-green-600">
+                      <p className="font-medium text-xl Aceh  text-green-600">
                         ₦1.95M (per person sharing)
                       </p>
 
@@ -684,14 +681,14 @@ museum</li>
                         </p>
                         <hr></hr>
 
-                        <ol className="text-left  text-l">
+                        <ul className="text-left  text-l">
                           <li>-&gt; Flight</li>
                           <li>-&gt; Accommodation</li>
                           <li>-&gt; Tours</li>
                           <li>-&gt; Meals</li>
                           <li>-&gt; Airport protocol </li>
                           <li>-&gt; Airport transfer</li>
-                        </ol>
+                        </ul>
                       </span>
 
                       <span>
@@ -699,7 +696,7 @@ museum</li>
                           Activities & tours
                         </p>
                         <hr></hr>
-                        <ol className="text-left  text-l">
+                        <ul className="text-left  text-l">
                           <li>-&gt; Parasailing</li>
                           <li>-&gt; Le caudon waterfront</li>
                           <li>-&gt; Banana tube ride</li>
@@ -709,7 +706,7 @@ museum</li>
                             waterfall</li>
                           <li>-&gt; Catamaran cruise</li>
                           <li>-&gt; Themed night activities</li>
-                        </ol>
+                        </ul>
                       </span>
 
                     </span>

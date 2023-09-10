@@ -8,6 +8,7 @@ import testi1 from "../../Images/testimonials/testi1.jpeg"
 import testi2 from "../../Images/testimonials/testi2.jpeg"
 import anjola from "../../Images/testimonials/anjola.jpeg"
 import davidson from "../../Images/testimonials/davidson.jpeg"
+import user1 from "../../Images/testimonials/user1.jpeg"
 import testi3 from "../../Images/testimonials/testi3.jpeg"
 import testi4 from "../../Images/testimonials/testi4.jpeg"
 import reviewImg from "../../Images/Feedback/review-one.jpg";
@@ -108,6 +109,37 @@ export const SectionFive = () => {
             <SwiperSlide>
               <div className="flex gap-10 sm:block text-left  p-8 2xl:p-4 lg:gap-6 lg:p-1">
                 <div className="avatar flex">
+                  <div className="w-48 h-48 m-auto  rounded-full ">
+                    <img src={user1} />
+                  </div>
+                </div>
+                <div className="flex flex-col gap-7 lg:gap-4">
+                  <QuoteImg className="w-7 h-7 lg:h-6 lg:w-6" />
+                  <div className="flex">
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                  </div>
+                  <div className="badge badge-neutral">Crystalveey Atelier</div>
+                  <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
+                  I saw the trousers and I absolutely love them! They fit perfectly. I will definitely be making another one.
+
+                  </h4>
+                  <div className="flex flex-col gap-1">
+                    <h5 className="text-gray-900 Aceh font-bold text-lg">
+                    Sarah
+                    </h5>
+
+                  </div>
+                </div>
+
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex gap-10 sm:block text-left  p-8 2xl:p-4 lg:gap-6 lg:p-1">
+                <div className="avatar flex">
                   <div className="w-48 h-48 m-auto rounded-full ">
                     <img src={testi3} />
                   </div>
@@ -194,6 +226,36 @@ export const SectionFive = () => {
                   <div className="flex flex-col gap-1">
                     <h5 className="text-gray-900 Aceh font-semibold text-lg lg:text-base">
                       Davidson
+                    </h5>
+
+                  </div>
+                </div>
+
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="flex gap-10 sm:block text-left  p-8 2xl:p-4 lg:gap-6 lg:p-1">
+                <div className="avatar flex">
+                  <div className="w-48 h-48 m-auto  rounded-full ">
+                    <img src={user1} />
+                  </div>
+                </div>
+                <div className="flex flex-col gap-7 lg:gap-4">
+                  <QuoteImg className="w-7 h-7 lg:h-6 lg:w-6" />
+                  <div className="flex">
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                    <StarImg className="w-5 h-5 lg:w-4 lg:h-6" />
+                  </div>
+                  <div className="badge badge-neutral">Crystalveey Atelier</div>
+                  <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
+                  I love the dress. Thank you so much
+                  </h4>
+                  <div className="flex flex-col gap-1">
+                    <h5 className="text-gray-900 Aceh font-bold text-lg">
+                    Hachi
                     </h5>
 
                   </div>

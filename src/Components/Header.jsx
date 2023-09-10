@@ -60,7 +60,7 @@ export const Header = () => {
           </li>
           <li>
             <Link
-              to="/"
+              to="http://calendly.com/victoria-crystalveey"  target="_blank" 
               className="middle text-gray-200    font-semibold hover:text-gray-400 xl:text-sm"
             >
               Free Consultation
@@ -116,7 +116,7 @@ export const Header = () => {
             </li>
             <li className="border-b border-gray-700 pb-3">
               <Link
-                to="/"
+                to="http://calendly.com/victoria-crystalveey" target="_blank"
                 className="middle  text-base  font-semibold hover:text-gray-750 sm:text-sm"
               >
                 Free Consultation
