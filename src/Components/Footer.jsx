@@ -39,7 +39,7 @@ export const Footer = () => {
             </li>
             <dialog
               id="about"
-              className="modal w-screen text-black dark:text-white "
+              className="modal w-screen text-white  "
             >
               <div className="modal-box bg-black w-full">
                 <form method="dialog">
