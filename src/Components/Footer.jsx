@@ -51,7 +51,7 @@ export const Footer = () => {
                 <h3 className="font-bold text-3xl Aceh text-center">
                   About us
                 </h3>
-                <p className="text-2xl p-10">
+                <p className="text-2xl sm:text-xl p-10 sm:p-4">
                   Crystalveey is a portfolio company encompassing a fashion
                   merchandize and re-commerce brand that produces quality
                   clothing for both male and female, a like-minded community
@@ -64,9 +64,7 @@ export const Footer = () => {
                 </p>
               </div>
             </dialog>
-            <li className="middle hover:text-gray-400 fnt-medium text-lg cursor-pointer w-max">
-              About Us
-            </li>
+           
             <li
               className="middle  hover:text-gray-400 font-medium text-lg cursor-pointer w-max"
               onClick={() => document.getElementById("privacy").showModal()}
@@ -76,9 +74,9 @@ export const Footer = () => {
             </li>
             <dialog
               id="privacy"
-              className="modal w-screen text-black dark:text-white "
+              className="modal w-screen text-white dark:text-white "
             >
-              <div className="modal-box bg-black w-full">
+              <div className="modal-box bg-black  w-full">
                 <form method="dialog">
                   {/* if there is a button in form, it will close the modal */}
                   <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
