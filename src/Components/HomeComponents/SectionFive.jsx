@@ -57,11 +57,7 @@ export const SectionFive = () => {
                   <div className="badge badge-neutral">Explore Crystalveey</div>
 
                   <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
-                    Vacation is expensive but God bless explore Crystalveey for me.
-                    Initially when I saw their cost in comparison to other people, I was
-                    like its too cheap to be flawless but then I had an amazing
-                    experience. The tour guide went over and above to make sure we
-                    had a good time,
+                    I had an amazing experience. The tour guide went over and above to make sure we had a good time. They are the most affordable travel agency.
                   </h4>
                   <div className="flex flex-col gap-1">
                     <h5 className="text-gray-900 Aceh font-semibold text-lg">
@@ -154,9 +150,7 @@ export const SectionFive = () => {
                   <div className="badge badge-neutral">Explore Crystalveey</div>
 
                   <h4 className=" text-gray-600 font-medium text-2xl xl:text-xl">
-                    I have always wanted to travel to Africa and I decided in 2023 to
-                    travel to multiple countries. The travel package was a no brainer
-                    for me because it is fairly priced and its for travel lovers too.
+                  The travel package was a no brainer for me because it is fairly priced and its for travel lovers too. 
                   </h4>
                   <div className="flex flex-col gap-1">
                     <h5 className="text-gray-900 Aceh font-semibold text-lg lg:text-base">

@@ -20,7 +20,7 @@ export const SectionSix = () => {
           Connect and chat with likeminds on Wholesome!!
         </p>
         <form>
-        <input type="text" className="px-4 py-2 w-96 h-12 mr-4 bg-white border rounded-lg" placeholder="Email Address">
+        <input type="email" className="px-4 py-2 w-full my-4 h-12 mr-4 bg-white border rounded-lg" placeholder="Email Address">
 
         </input>
         <button type="submit"
