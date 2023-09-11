@@ -53,7 +53,7 @@ export const SectionThree = () => {
           data-aos="slide-up" data-aos-delay="200"
         >
           <SwiperSlide>
-            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
+            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10  sm:w-full">
               <img
                 src={zanbiza}
                 alt="kigaliImg"
@@ -157,7 +157,7 @@ export const SectionThree = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide >
-            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
+            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10  sm:w-full">
               <img
                 src={kenya1}
                 alt=""
@@ -273,7 +273,7 @@ export const SectionThree = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide >
-            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
+            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10  sm:w-full">
               <img
                 src={kenya2}
                 alt=""
@@ -393,7 +393,7 @@ export const SectionThree = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
+            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10  sm:w-full">
               <img
                 src={ghana}
                 alt=""
@@ -504,7 +504,7 @@ museum</li>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-80 shadow-xl h-2/5 rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
+            <div className="w-80 shadow-xl h-2/5 rounded-xl flex flex-col gap-6 pb-10  sm:w-full">
               <img
                 src={lebanon}
                 alt=""
@@ -612,7 +612,7 @@ museum</li>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
+            <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10  sm:w-full">
               <img
                 src={mauritus}
                 alt=""

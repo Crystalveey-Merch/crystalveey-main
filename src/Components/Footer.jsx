@@ -32,43 +32,7 @@ export const Footer = () => {
           <p className=" text-gray-300 font-semibold text-base xl:text-sm xl:font-medium">
             Fashion| Travel| Events| Consultations.
           </p>
-          <p>Partners:</p>
-          <Swiper
-            // breakpoints={breakpoints}
-            slidesPerView={3}
-            spaceBetween={1}
-
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            modules={[Navigation, Autoplay,]}
-            className="mySwiper py-10 text-white w-full"
-          >
-            <SwiperSlide className="text-white" >
-              <img src={turkey} alt="turkey" className="w-20 h-10" />
-            </SwiperSlide>
-            <SwiperSlide className="text-white" >
-              <img src={reminato} alt="reminato" className="w-20 h-10" />
-            </SwiperSlide>
-            <SwiperSlide className="text-white" >
-              <img src={airp} alt="airpeace" className="w-20 h-10" />
-            </SwiperSlide>
-            <SwiperSlide className="text-white" >
-              <img src={covenant} alt="covenant" className="w-20 h-10" />
-            </SwiperSlide>
-            <SwiperSlide className="text-white" >
-              <img src={kenya} alt="kenya" className="w-20 h-10" />
-            </SwiperSlide>
-
-            <SwiperSlide className="text-white" >
-              <img src={qatar} alt="qutar" className="w-20 h-10" />
-            </SwiperSlide>
-            <SwiperSlide className="text-white" >
-              <img src={awa} alt="awa" className="w-20 h-10" />
-            </SwiperSlide>
-
-          </Swiper>
+          
 
         </div>
         <div className="flex gap-40  2xl:gap-20 xl:gap-12 lg:w-full lg:order-3 lg:justify-between lg:pr-10 sm:flex-wrap">
@@ -137,6 +101,44 @@ export const Footer = () => {
         </div>
 
       </div>
+      <p className="text-center Aceh text-2xl">Partners:</p>
+      <hr/>
+          <Swiper
+            // breakpoints={breakpoints}
+            slidesPerView={4}
+            spaceBetween={10}
+
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            modules={[Navigation, Autoplay,]}
+            className="mySwiper py-10 text-white w-4/5 sm:w-full"
+          >
+            <SwiperSlide className="text-white" >
+              <img src={turkey} alt="turkey" className="w-40 h-20" />
+            </SwiperSlide>
+            <SwiperSlide className="text-white" >
+              <img src={reminato} alt="reminato" className="w-40 h-20" />
+            </SwiperSlide>
+            <SwiperSlide className="text-white" >
+              <img src={airp} alt="airpeace" className="w-40 h-20" />
+            </SwiperSlide>
+            <SwiperSlide className="text-white" >
+              <img src={covenant} alt="covenant" className="w-40 h-20" />
+            </SwiperSlide>
+            <SwiperSlide className="text-white" >
+              <img src={kenya} alt="kenya" className="w-40 h-20" />
+            </SwiperSlide>
+
+            <SwiperSlide className="text-white" >
+              <img src={qatar} alt="qutar" className="w-40 h-20" />
+            </SwiperSlide>
+            <SwiperSlide className="text-white" >
+              <img src={awa} alt="awa" className="w-40 h-20" />
+            </SwiperSlide>
+
+          </Swiper>
       <div className=" border-gray-100 pt-6 text-center">
         <p className="font-semibold base text-gray-200">
           &copy; {new Date().getFullYear()} Explore Crystalveey

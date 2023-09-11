@@ -19,7 +19,11 @@ export const SectionSix = () => {
         data-aos="slide-left" data-aos-delay="300">
           Connect and chat with likeminds on Wholesome!!
         </p>
-        <button
+        <form>
+        <input type="text" className="px-4 py-2 w-96 h-12 mr-4 bg-white border rounded-lg" placeholder="Email Address">
+
+        </input>
+        <button type="submit"
             className="px-4 py-2 h-12 rounded-lg bg-black text-white text-base font-normal hover:bg-gray-900 transition duration-300 ease-in-out w-max
             xl:px-3 xl:text-sm xl:py-1 md:px-3 md:text-sm md:h-10 md:w-max sm:m-auto
           "
@@ -27,6 +31,7 @@ export const SectionSix = () => {
                     >
             Join Wholesome
           </button>
+          </form>
       </div>
       
         
