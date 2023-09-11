@@ -2,6 +2,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { Footer, Header } from "./Components";
 import { Community, Home } from "./Pages";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
@@ -16,7 +17,10 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/community" element={<Community/>} />
       </Routes>
+      
+
       <Footer />
+      <ScrollToTop/>
     </div>
   );
 }

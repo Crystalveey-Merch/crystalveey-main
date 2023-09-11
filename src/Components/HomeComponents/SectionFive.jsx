@@ -35,6 +35,7 @@ export const SectionFive = () => {
             }}
             modules={[Autoplay]}
             className="mySwiper"
+            data-aos="zoom-in-up" data-aos-delay="100"
           >
             <SwiperSlide>
               <div className="flex gap-10 m-auto sm:justify-center sm:block text-left  p-8 2xl:p-4 lg:gap-6 lg:p-1">

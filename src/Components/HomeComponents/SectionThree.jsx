@@ -50,6 +50,7 @@ export const SectionThree = () => {
           }}
           modules={[Pagination, Autoplay, Navigation]}
           className="mySwiper py-10"
+          data-aos="slide-up" data-aos-delay="200"
         >
           <SwiperSlide>
             <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
@@ -102,16 +103,16 @@ export const SectionThree = () => {
                     <h3 className="font-bold text-3xl Aceh ">Zanzibar</h3>
                     <span className="flex m-auto  w-full justify-center">
                       <span className="flex gap-4 Aceh">
-                        <p className="font-medium text-xl text-green-600">
+                        <p className="font-medium text-l text-green-600">
                           ₦1.8M (early bird){" "}
                         </p>
-                        <p className="text-red-600 text-xl text-center">
+                        <p className="text-red-600 text-l text-center">
                           {" "}
                           ₦2.1M (late bird)
                         </p>
                       </span>
                     </span>
-                    <span className="dark:text-white m-2 text-xl text-left">
+                    <span className="dark:text-white m-2 text-l text-left">
                       <FontAwesomeIcon icon={faCalendar} className="" /> 10th-16th
                       Nov. 2023
                     </span>
@@ -122,7 +123,7 @@ export const SectionThree = () => {
                         </p>
                         <hr></hr>
 
-                        <ol className="text-left  text-l">
+                        <ol className="text-left Aceh  text-l">
                           <li>-&gt; 4 star hotel in Dar Es Salaam</li>
                           <li>-&gt; Beach front resort in Zanziber</li>
                           <li>-&gt; Return flight tickets</li>
@@ -137,7 +138,7 @@ export const SectionThree = () => {
                           Activities & tours
                         </p>
                         <hr></hr>
-                        <ol className="text-left  text-l">
+                        <ol className="text-left Aceh text-l">
                           <li>-&gt; Safari blu tour</li>
                           <li>-&gt; Stone town tour</li>
                           <li>-&gt; Ferry cruise</li>
@@ -155,7 +156,7 @@ export const SectionThree = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide >
             <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
               <img
                 src={kenya1}
@@ -169,7 +170,7 @@ export const SectionThree = () => {
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right">
-                    <p className="font-bold text-xl Aceh text-green-600">
+                    <p className="font-bold text-l Aceh text-green-600">
                       N 1.6M (early bird){" "}
                     </p>
                   </span>
@@ -210,13 +211,13 @@ export const SectionThree = () => {
                     <h3 className="font-bold text-3xl Aceh">kenya & Rwanda</h3>
 
                     <span className="flex justify-center m-auto gap-5">
-                      <p className="font-bold text-xl Aceh text-green-600">
+                      <p className="font-bold text-l Aceh text-green-600">
                         ₦1.6M (early bird){" "}
                       </p>
 
 
                     </span>
-                    <span className=" dark:text-white text-xl ">
+                    <span className=" dark:text-white text-l ">
                       <FontAwesomeIcon icon={faCalendar} className="" /> Dec
                       28th – 3rd Jan
                     </span>
@@ -227,7 +228,7 @@ export const SectionThree = () => {
                         </p>
                         <hr></hr>
 
-                        <ol className="text-left  text-l">
+                        <ol className="text-left Aceh text-l">
                           <li>-&gt; Flights</li>
                           <li>-&gt; Hotels</li>
                           <li>-&gt; Daily Brakefast</li>
@@ -241,7 +242,7 @@ export const SectionThree = () => {
                           Kenya Activities & tours
                         </p>
                         <hr></hr>
-                        <ol className="text-left  text-l">
+                        <ol className="text-left Aceh  text-l">
                           <li>-&gt; Nairobi city tour</li>
                           <li>-&gt; Giraffe centre</li>
                           <li>-&gt; Maasai costume & dance</li>
@@ -250,11 +251,11 @@ export const SectionThree = () => {
                         </ol>
                       </span>
                       <span>
-                        <p className="py-4 text-left text-xl ">
+                        <p className="py-4 text-left Aceh text-xl ">
                           Rwanda activities & tours
                         </p>
                         <hr></hr>
-                        <ol className="text-left  text-l">
+                        <ol className="text-left Aceh text-l">
                           <li>-&gt; Kigali city tour</li>
                           <li>-&gt; Gisenyi city tour</li>
                           <li>-&gt; Genocide memorial</li>
@@ -271,7 +272,7 @@ export const SectionThree = () => {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide >
             <div className="w-80 shadow-xl rounded-xl flex flex-col gap-6 pb-10 bg-gradient-to-br from-sky-100 via-white to-sky-100 sm:w-full">
               <img
                 src={kenya2}
@@ -285,7 +286,7 @@ export const SectionThree = () => {
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right">
-                    <p className="font-bold text-xl Aceh text-green-600">
+                    <p className="font-bold text-l Aceh text-green-600">
                       N 1.2M (early bird){" "}
                     </p>
                   </span>
@@ -326,17 +327,17 @@ export const SectionThree = () => {
                     <h3 className="font-bold text-3xl Aceh ">kenya & Rwanda</h3>
 
                     <span className="flex justify-center m-auto Aceh gap-5">
-                      <p className="font-bold text-xl text-green-600">
+                      <p className="font-bold text-l text-green-600">
                         ₦1.6M (early bird){" "}
                       </p>
-                      <p className="text-red-600 text-xl text-center">
+                      <p className="text-red-600 text-l text-center">
                         {" "}
                         ₦2.1M (late bird)
                       </p>
 
 
                     </span>
-                    <span className="dark:text-white text-xl ">
+                    <span className="dark:text-white text-l ">
                       <FontAwesomeIcon icon={faCalendar} className="" /> Dec
                       28th – 3rd Jan
                     </span>
@@ -347,7 +348,7 @@ export const SectionThree = () => {
                         </p>
                         <hr></hr>
 
-                        <ol className="text-left  text-l">
+                        <ol className="text-left Aceh text-l">
                           <li>-&gt; Flights</li>
                           <li>-&gt; Hotels</li>
                           <li>-&gt; Daily Brakefast</li>
@@ -361,7 +362,7 @@ export const SectionThree = () => {
                           Kenya Activities & tours
                         </p>
                         <hr></hr>
-                        <ol className="text-left  text-l">
+                        <ol className="text-left Aceh text-l">
                           <li>-&gt; Nairobi city tour</li>
                           <li>-&gt; Giraffe centre</li>
                           <li>-&gt; Maasai costume & dance</li>
@@ -374,7 +375,7 @@ export const SectionThree = () => {
                           Rwanda activities & tours
                         </p>
                         <hr></hr>
-                        <ol className="text-left  text-l">
+                        <ol className="text-left Aceh  text-l">
                           <li>-&gt; Kigali city tour</li>
                           <li>-&gt; Rwanda art
                             museum</li>
@@ -405,7 +406,7 @@ export const SectionThree = () => {
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right">
-                    <p className="font-medium text-xl  Aceh text-green-600">
+                    <p className="font-medium text-l  Aceh text-green-600">
                       ₦750k - ₦850K
                     </p>
                   </span>
@@ -445,10 +446,10 @@ export const SectionThree = () => {
                     <h3 className="font-bold text-3xl Aceh">Ghana</h3>
 
                     <span className="flex Aceh flex-col justify-center m-auto gap-2">
-                      <p className="font-medium text-xl text-green-600">
+                      <p className="font-medium text-l text-green-600">
                         ₦850K (per person sharing- flight / flight){" "}
                       </p>
-                      <p className="text-red-600 text-xl text-center">
+                      <p className="text-red-600 text-l text-center">
                         {" "}
 
                         ₦750K (per person sharing- road / flight)
@@ -456,7 +457,7 @@ export const SectionThree = () => {
 
 
                     </span>
-                    <span className="text-black dark:text-white text-xl ">
+                    <span className="text-black dark:text-white text-l ">
                       <FontAwesomeIcon icon={faCalendar} className="" /> Dec
                       28th – 3rd Jan
                     </span>
@@ -468,7 +469,7 @@ export const SectionThree = () => {
                         </p>
                         <hr></hr>
 
-                        <ol className="text-left  text-l">
+                        <ol className="text-left Aceh  text-l">
                           <li>-&gt; Flights</li>
                           <li>-&gt; Hotels</li>
                           <li>-&gt; Daily Brakefast</li>
@@ -482,7 +483,7 @@ export const SectionThree = () => {
                           Activities & tours
                         </p>
                         <hr></hr>
-                        <ol className="text-left  text-l">
+                        <ol className="text-left Aceh text-l">
                           <li>-&gt; Accra city tour</li>
                           <li>-&gt; Nkwame Nkrumah 
 museum</li>
@@ -516,7 +517,7 @@ museum</li>
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right">
-                    <p className="font-bold Aceh text-xl text-green-600">
+                    <p className="font-bold Aceh text-l text-green-600">
                       ₦1.7M - ₦1.95M
                     </p>
                   </span>
@@ -556,10 +557,10 @@ museum</li>
                     <h3 className="font-bold Aceh text-3xl ">Lebanon</h3>
 
                     <span className="flex Aceh  justify-center m-2 gap-5 ">
-                      <p className="font-medium text-xl text-green-600">
+                      <p className="font-medium text-l text-green-600">
                         ₦1.7M (double occupancy)
                       </p>
-                      <p className="text-red-600   text-xl text-center">
+                      <p className="text-red-600   text-l text-center">
                         {" "}
                         ₦1.95M (single
                         occupancy)
@@ -567,7 +568,7 @@ museum</li>
 
 
                     </span>
-                    <span className="dark:text-white text-xl ">
+                    <span className="dark:text-white text-l ">
                       <FontAwesomeIcon icon={faCalendar} className="" /> 23rd – 29th Dec 2023
                     </span>
                     <span className="flex gap-4 sm:block ">
@@ -577,14 +578,14 @@ museum</li>
                         </p>
                         <hr></hr>
 
-                        <ol className="text-left  text-l">
+                        <ul className="text-left Aceh bullet text-l">
                           <li>-&gt; 4 star hotel</li>
                           <li>-&gt; Return flight ticket</li>
                           <li>-&gt; Airport transfers</li>
                           <li>-&gt; 2 full day tours &
                             activities</li>
                           <li>-&gt; Daily breakfast </li>
-                        </ol>
+                        </ul>
                       </span>
 
                       <span>
@@ -592,7 +593,7 @@ museum</li>
                           Activities & tours
                         </p>
                         <hr></hr>
-                        <ol className="text-left  text-l">
+                        <ol className="text-left Aceh text-l">
                           <li>-&gt; Jeita grotto</li>
                           <li>-&gt; Pigeon rock</li>
                           <li>-&gt; Byblos tours</li>
@@ -624,7 +625,7 @@ museum</li>
                   </h5>
                   <hr style={{ height: "20px", width: "1px" }} className=" bg-black" />
                   <span className="text-right Aceh">
-                    <p className="font-bold text-xl text-green-600">
+                    <p className="font-bold text-l text-green-600">
                       ₦1.95M / person
                     </p>
                   </span>
@@ -664,14 +665,14 @@ museum</li>
                     <h3 className="font-bold Aceh text-3xl ">Mauritus</h3>
 
                     <span className="flex justify-center m-auto gap-5">
-                      <p className="font-medium text-xl Aceh  text-green-600">
+                      <p className="font-medium text-l Aceh  text-green-600">
                         ₦1.95M (per person sharing)
                       </p>
 
 
                       
                     </span>
-                    <span className="dark:text-white text-xl ">
+                    <span className="dark:text-white text-l ">
                         <FontAwesomeIcon icon={faCalendar} className="" /> Nov 29th-4th Dec 2023
                       </span>
                     <span className="flex gap-4 sm:block ">
@@ -681,7 +682,7 @@ museum</li>
                         </p>
                         <hr></hr>
 
-                        <ul className="text-left  text-l">
+                        <ul className="text-left Aceh  text-l">
                           <li>-&gt; Flight</li>
                           <li>-&gt; Accommodation</li>
                           <li>-&gt; Tours</li>
@@ -696,7 +697,7 @@ museum</li>
                           Activities & tours
                         </p>
                         <hr></hr>
-                        <ul className="text-left  text-l">
+                        <ul className="text-left Aceh text-l">
                           <li>-&gt; Parasailing</li>
                           <li>-&gt; Le caudon waterfront</li>
                           <li>-&gt; Banana tube ride</li>

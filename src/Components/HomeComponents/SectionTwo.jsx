@@ -7,8 +7,15 @@ import { ReactComponent as Flight } from "../../Images/flight.svg";
 import { ReactComponent as Fashion } from "../../Images/fashion.svg";
 import { ReactComponent as Community } from "../../Images/community.svg";
 import { ReactComponent as Charity } from "../../Images/charity.svg";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+
 
 export const SectionTwo = () => {
+
+
   return (
     <div
 
@@ -17,7 +24,7 @@ export const SectionTwo = () => {
         Our Diversified Portfolio
       </h3>
       <div className="flex justify-around gap-10 2xl:gap-6 lg:grid lg:grid-cols-2 lg:grid-flow-row lg:gap-y-12 lg:justify-center lg:w-max sm:flex sm:flex-col sm:gap-6 sm:gap-y-6 sm:px-0 sm:w-full">
-        <div className="relative flex flex-col items-center w-96 gap-4 shadow-lg  pb-7   lg:w-80 sm:w-full ">
+        <div data-aos="slide-up" data-aos-once="false" className="relative flex flex-col items-center w-96 gap-4 shadow-lg  pb-7   lg:w-80 sm:w-full ">
 
           <img
             src={exploreImg}
@@ -56,7 +63,7 @@ export const SectionTwo = () => {
               </span>
             </button> </a>
         </div>
-        <div className="relative flex flex-col items-center w-96 gap-4 shadow-lg  pb-7   lg:w-80 sm:w-full">
+        <div data-aos="slide-up" data-aos-once="false" data-aos-delay="100"  className="relative flex flex-col items-center w-96 gap-4 shadow-lg  pb-7   lg:w-80 sm:w-full">
 
           <img
             src={atelierImg}
@@ -90,7 +97,7 @@ export const SectionTwo = () => {
               Learn More
             </button></a>
         </div>
-        <div className="relative flex flex-col items-center w-96 gap-4 shadow-lg  pb-7   lg:w-80 sm:w-full">
+        <div data-aos="slide-up" data-aos-once="false" data-aos-delay="200" className="relative flex flex-col items-center w-96 gap-4 shadow-lg  pb-7   lg:w-80 sm:w-full">
 
           <img
             src={wholesomeImg}
@@ -123,7 +130,7 @@ export const SectionTwo = () => {
             Learn More
           </button>
         </div>
-        <div className="relative flex flex-col items-center w-96 gap-4 shadow-lg  pb-7   lg:w-80 sm:w-full">
+        <div data-aos="slide-up" data-aos-delay="300" data-aos-once="false" className="relative flex flex-col items-center w-96 gap-4 shadow-lg  pb-7   lg:w-80 sm:w-full">
 
           <img
             src={CvCImg}
