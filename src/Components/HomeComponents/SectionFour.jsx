@@ -12,7 +12,14 @@ import image5 from "../../Images/topproduct/image5.jpeg";
 import image6 from "../../Images/topproduct/image6.jpeg";
 import image7 from "../../Images/topproduct/image7.jpeg";
 import image8 from "../../Images/topproduct/image8.jpeg";
-
+import image9 from "../../Images/topproduct/image9.jpeg";
+import image10 from "../../Images/topproduct/image10.jpeg";
+import image11 from "../../Images/topproduct/image11.jpeg";
+import image12 from "../../Images/topproduct/image12.jpeg";
+import image13 from "../../Images/topproduct/image13.jpeg";
+import image14 from "../../Images/topproduct/image14.jpeg";
+import image15 from "../../Images/topproduct/image15.jpeg";
+import image16 from "../../Images/topproduct/image16.jpeg";
 export const SectionFour = () => {
   const breakpoints = {
     // Define the breakpoints where you want to change the slidesPerView
@@ -47,12 +54,12 @@ export const SectionFour = () => {
           modules={[Pagination, Autoplay, Navigation]}
           className="mySwiper"
         >
-          <SwiperSlide>
+         <SwiperSlide>
             <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
               <img
-                src={image1}
-                alt="imgTwo"
-                className=" sec4ImgH w-full 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+                src={image9}
+                alt="imgNine"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
               />
               <div className="flex flex-col gap-4">
                 <div className="">
@@ -69,6 +76,168 @@ export const SectionFour = () => {
               </div>
             </div>
           </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
+              <img
+                src={image10}
+                alt="imgNine"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+              />
+              <div className="flex flex-col gap-4">
+                <div className="">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
+                    N16,000
+                  </h3>
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
+                    Viva
+                  </p>
+                </div>
+                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
+              <img
+                src={image11}
+                alt="imgNine"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+              />
+              <div className="flex flex-col gap-4">
+                <div className="">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
+                    N15,000
+                  </h3>
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
+                    Bloom dress
+                  </p>
+                </div>
+                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
+              <img
+                src={image12}
+                alt="imgNine"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+              />
+              <div className="flex flex-col gap-4">
+                <div className="">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
+                    N12,500
+                  </h3>
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
+                    Luxe Maxi
+                  </p>
+                </div>
+                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
+              <img
+                src={image13}
+                alt="imgNine"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+              />
+              <div className="flex flex-col gap-4">
+                <div className="">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
+                   N9500
+                  </h3>
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
+                    Zendra
+                  </p>
+                </div>
+                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
+              <img
+                src={image14}
+                alt="imgNine"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+              />
+              <div className="flex flex-col gap-4">
+                <div className="">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
+                    N10,500
+                  </h3>
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
+                    Tia Dress
+                  </p>
+                </div>
+                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </SwiperSlide>
+          
+          <SwiperSlide>
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
+              <img
+                src={image15}
+                alt="imgNine"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+              />
+              <div className="flex flex-col gap-4">
+                <div className="">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
+                    N14,000
+                  </h3>
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
+                    Luxe midi
+                  </p>
+                </div>
+                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
+              <img
+                src={image16}
+                alt="imgNine"
+                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+              />
+              <div className="flex flex-col gap-4">
+                <div className="">
+                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
+                    $295
+                  </h3>
+                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
+                    Hooded cotton sweatshirt
+                  </p>
+                </div>
+                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </SwiperSlide>
+          
+          
           <SwiperSlide>
             <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
               <img
@@ -79,10 +248,10 @@ export const SectionFour = () => {
               <div className="flex flex-col gap-4">
                 <div className="">
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    $295
+                    N19,000
                   </h3>
                   <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Hooded cotton sweatshirt
+                    Fiesta
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
@@ -124,10 +293,10 @@ export const SectionFour = () => {
               <div className="flex flex-col gap-4">
                 <div className="">
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    $295
+                  N17,000
                   </h3>
                   <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Hooded cotton sweatshirt
+                  Luxe maxi wrap
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
@@ -146,10 +315,10 @@ export const SectionFour = () => {
               <div className="flex flex-col gap-4">
                 <div className="">
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    $295
+                    N18,000
                   </h3>
                   <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Hooded cotton sweatshirt
+                  Honora
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
@@ -168,10 +337,10 @@ export const SectionFour = () => {
               <div className="flex flex-col gap-4">
                 <div className="">
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    $295
+                    N23,000
                   </h3>
                   <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Hooded cotton sweatshirt
+                  Sizzler
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
@@ -190,10 +359,10 @@ export const SectionFour = () => {
               <div className="flex flex-col gap-4">
                 <div className="">
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    $295
+                    N15,000
                   </h3>
                   <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Hooded cotton sweatshirt
+                    Pomp
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
@@ -213,10 +382,10 @@ export const SectionFour = () => {
               <div className="flex flex-col gap-4">
                 <div className="">
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    $295
+                    N16,000
                   </h3>
                   <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Hooded cotton sweatshirt
+                    Audrey
                   </p>
                 </div>
                 <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
@@ -225,6 +394,7 @@ export const SectionFour = () => {
               </div>
             </div>
           </SwiperSlide>
+
           
         </Swiper>
       </div>
