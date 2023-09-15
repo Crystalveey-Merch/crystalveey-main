@@ -21,11 +21,15 @@ export const SectionThree = () => {
     // Define the breakpoints where you want to change the slidesPerView
     300: {
       slidesPerView: 1,
-      spaceBetween: 2,
+      spaceBetween: 20,
     },
     639: {
       slidesPerView: 2,
       spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
     },
     1024: {
       slidesPerView: 3,
@@ -34,7 +38,7 @@ export const SectionThree = () => {
     
   };
   return (
-    <div className="py-14 m-10 flex flex-col gap-16  rounded-lg sm:px-2 px-28 2xl:px-20 xl:py-10 xl:px-10 lg:items-center lg:py-6 lg:px-20 md:px-4  sm:gap-10">
+    <div className="py-14 m-10 flex flex-col gap-16  rounded-lg sm:px-2 px-28 2xl:px-20 xl:py-10 xl:px-10 lg:items-center lg:py-6 lg:px-4 md:px-4  sm:gap-10">
       <h3 className="text-gray-900  font-bold text-4xl Aceh xl:text-4xl sm:text-2xl">
         Top Selling Travel Packages
       </h3>

@@ -29,8 +29,8 @@ export const Footer = () => {
             Fashion| Travel| Events| Consultations.
           </p>
         </div>
-        <div className="flex gap-40  2xl:gap-20 xl:gap-12 lg:w-full laptop:ml-20 lg:order-3 lg:justify-between  lg:mr-40 sm:flex-wrap">
-          <ul className="flex flex-col gap-6 lg:ml-20 lg:pl-20 text-gray-200 ml-20">
+        <div className="flex gap-40 m-4 2xl:gap-10 xl:gap-12 lg:w-full laptop:ml-20 lg:order-3 lg:justify-between  lg:mr-40 sm:flex-wrap">
+          <ul className="flex flex-col gap-6   text-gray-200  ">
             <li
               className="middle hover:text-gray-400 text-lg cursor-pointer w-max"
               onClick={() => document.getElementById("about").showModal()}
