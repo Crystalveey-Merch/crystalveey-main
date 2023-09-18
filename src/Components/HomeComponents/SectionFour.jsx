@@ -102,11 +102,15 @@ export const SectionFour = () => {
 
           <SwiperSlide>
             <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
+              <div className="w-96 sec4ImgH overflow overflow-hidden">
               <img
                 src={image11}
                 alt="imgNine"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+                className="   2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+                style={{height: '400px', width: '500px'}}
+
               />
+              </div>
               <div className="flex flex-col gap-4">
                 <div className="">
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
@@ -125,11 +129,14 @@ export const SectionFour = () => {
 
           <SwiperSlide>
             <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
+            <div className="w-96 sec4ImgH overflow-hidden">
               <img
                 src={image12}
                 alt="imgNine"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+                className=" 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+                style={{height: '400px', width: '500px'}}
               />
+              </div>
               <div className="flex flex-col gap-4">
                 <div className="">
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
@@ -148,11 +155,15 @@ export const SectionFour = () => {
 
           <SwiperSlide>
             <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
+            <div className="w-96 sec4ImgH overflow-hidden">
               <img
                 src={image13}
                 alt="imgNine"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+                className=" 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+                style={{height: '400px', width: '500px'}}
               />
+              </div>
+
               <div className="flex flex-col gap-4">
                 <div className="">
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
@@ -171,11 +182,15 @@ export const SectionFour = () => {
 
           <SwiperSlide>
             <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
+            <div className="w-96 sec4ImgH overflow-hidden">
               <img
                 src={image14}
                 alt="imgNine"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+                className="  2xl:w-80 xl:w-72 md:w-60 sm:w-full"
+                style={{height: '400px', width: '500px'}}
+
               />
+              </div>
               <div className="flex flex-col gap-4">
                 <div className="">
                   <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
