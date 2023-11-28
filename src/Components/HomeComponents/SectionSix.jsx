@@ -1,6 +1,7 @@
 import React from "react";
 import community from "../../Images/community.gif";
 import { ReactComponent as Community } from "../../Images/community.svg";
+import { Link } from "react-router-dom";
 
 export const SectionSix = () => {
   return (
@@ -23,6 +24,7 @@ export const SectionSix = () => {
         <input type="email" className="px-4 py-2 w-full my-4 h-12 mr-4 bg-white border rounded-lg" placeholder="Email Address">
 
         </input>
+        <Link to="http://wholesome.crystalveey.com/">
         <button type="submit"
             className="px-4 py-2 h-12 rounded-lg bg-black text-white text-base font-normal hover:bg-gray-900 transition duration-300 ease-in-out w-max
             xl:px-3 xl:text-sm xl:py-1 md:px-3 md:text-sm md:h-10 md:w-max sm:m-auto
@@ -30,7 +32,7 @@ export const SectionSix = () => {
           data-aos="slide-up" data-aos-delay="400"        
                     >
             Join Wholesome
-          </button>
+          </button></Link>
           </form>
       </div>
       

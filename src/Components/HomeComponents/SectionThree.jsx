@@ -20,13 +20,26 @@ import { collection, getDocs, getFirestore } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 import { db } from "../../firebase/auth";
+import moment from "moment";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
 // Initialize Firebase
+const handleGetDateRange = (startDate, endDate) => {
+  startDate = moment(startDate);
+  endDate = moment(endDate);
+  const formattedStartDate = startDate.format("Do MMM");
+  let formattedEndDate = endDate.format("Do MMM");
+  if (!startDate.isSame(endDate, "month")) {
+    formattedEndDate = endDate.format("Do MMM YYYY");
+  }
+  return `${formattedStartDate} - ${formattedEndDate}`;
+}
+
 
 export const SectionThree = () => {
   const [travelPackages, setTravelPackages] = useState([]);
+
 
   useEffect(() => {
     const fetchTravelPackages = async () => {
@@ -45,6 +58,7 @@ export const SectionThree = () => {
   }, []);
   console.log(travelPackages);
 
+  
   const breakpoints = {
     // Define the breakpoints where you want to change the slidesPerView
     300: {
@@ -103,7 +117,10 @@ export const SectionThree = () => {
                   </div>
                   <span className=" m-auto text-center">
                     <p className="font-bold text-2xl bg-sky-600 text-white p-3 shadow-md ">
-                      N{travelPackage.price}
+                      {travelPackage.price.toLocaleString("en-NG", {
+                        style: "currency",
+                        currency: "NGN",
+                      })}
                     </p>
                   </span>
                   <div className="   text-left">
@@ -115,10 +132,11 @@ export const SectionThree = () => {
                     </span>
                     <span className="text-black m-2 text-left text-xl">
                       <FontAwesomeIcon icon={faCalendar} className="" />{" "}
-                      {travelPackage.startDate} - {travelPackage.endDate}
+                      {handleGetDateRange(travelPackage.startDate, travelPackage.endDate)}
+
                     </span>
                   </div>
-                 
+
                   {/* You can open the modal using document.getElementById('ID').showModal() method */}
                   <button
                     className="btn bg-black text-white"
@@ -144,10 +162,10 @@ export const SectionThree = () => {
                         </button>
                       </form>
                       <img
-                  src={travelPackage.images.imageTwo}
-                  alt={travelPackage.title}
-                  className="w-full h-60 rounded-t-xl"
-                />
+                        src={travelPackage.images.imageTwo}
+                        alt={travelPackage.title}
+                        className="w-full h-60 rounded-t-xl"
+                      />
                       <h3 className="font-bold text-3xl Aceh ">
                         {travelPackage.title}
                       </h3>
@@ -160,7 +178,7 @@ export const SectionThree = () => {
                       </span>
                       <span className="dark:text-white m-2 text-l text-left">
                         <FontAwesomeIcon icon={faCalendar} className="" />{" "}
-                        {travelPackage.startDate} - {travelPackage.endDate}
+                        {handleGetDateRange(travelPackage.startDate, travelPackage.endDate)}
                       </span>
                       <span className="flex gap-4 sm:block">
                         <span>
@@ -169,11 +187,13 @@ export const SectionThree = () => {
                           </p>
                           <hr></hr>
 
-                          <ul className="text-left Aceh text-l list-disc"  key={travelPackages.id}>
-                             {travelPackage.inclusions?.map((item) => (
-                                    <li key={item}>{item}</li>
-                                  ))}
-                               
+                          <ul
+                            className="text-left Aceh text-l list-disc"
+                            key={travelPackages.id}
+                          >
+                            {travelPackage.inclusions?.map((item) => (
+                              <li key={item}>{item}</li>
+                            ))}
                           </ul>
                         </span>
 
@@ -185,16 +205,12 @@ export const SectionThree = () => {
                           <ul className="text-left Aceh text-l list-disc">
                             {travelPackage?.visitingCities?.map((item) => (
                               <>
-                                <li > {item.name}</li>
+                                <li> {item.name}</li>
                                 {item.activities.map((item) => (
-                                <li className="text-gray-400">{item}</li>
-                                ))
-
-                                }
+                                  <li className="text-gray-400">{item}</li>
+                                ))}
                               </>
-
                             ))}
-                            
                           </ul>
                         </span>
                       </span>

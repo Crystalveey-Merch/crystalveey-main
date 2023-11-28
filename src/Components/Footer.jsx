@@ -64,7 +64,7 @@ export const Footer = () => {
                 </p>
               </div>
             </dialog>
-           
+
             <li
               className="middle  hover:text-gray-400 font-medium text-lg cursor-pointer w-max"
               onClick={() => document.getElementById("privacy").showModal()}
@@ -88,7 +88,7 @@ export const Footer = () => {
                 </h3>
                 <h1 className="text-white Aceh">
                   What information do we collect?{" "}
-                <hr></hr>
+                  <hr></hr>
                 </h1>
                 <ul className="gap-4 flex my-2 flex-col">
                   <li>
@@ -96,7 +96,7 @@ export const Footer = () => {
                     community.
                   </li>
                   <li>
-                   - When booking, ordering or registering on our site, you may
+                    - When booking, ordering or registering on our site, you may
                     be asked to enter your name, e-mail address, mailing
                     address, phone number, or credit card information.
                   </li>
@@ -170,91 +170,91 @@ export const Footer = () => {
                   If you have any questions or concerns regarding this privacy
                   policy, please contact us at:
                   <br></br>
-                   Re: CRYSTALVEEY PRIVACY POLICY
-                   <br></br>
-                   <a
-                href="mailto:office.crystalveey@gmail.com"
-                className="hover:text-gray-750"
-              >
-                <FontAwesomeIcon icon={faEnvelope} className="px-2" />
-                office.crystalveey@gmail.com
-              </a>
+                  Re: CRYSTALVEEY PRIVACY POLICY
+                  <br></br>
+                  <a
+                    href="mailto:office.crystalveey@gmail.com"
+                    className="hover:text-gray-750"
+                  >
+                    <FontAwesomeIcon icon={faEnvelope} className="px-2" />
+                    office.crystalveey@gmail.com
+                  </a>
                 </p>
-                
+
               </div>
             </dialog>
           </ul>
           <ul className="flex flex-col gap-6 w-max text-white">
             <li className="middle  hover:text-gray-400 font-medium text-lg cursor-pointer w-max">
-              <Link to="http://attelier.vercel.app/" target="_blank">
+              <Link to="http://atelier.crystalveey.com/" target="_blank">
                 Atelier
               </Link>
             </li>
-            <li
-              className="middle  hover:text-gray-400 font-medium text-lg cursor-pointer w-max"
-              to="http://explore-crystalveey.vercel.app"
-              target="_blank"
-            >
+            <li className="middle  hover:text-gray-400 font-medium text-lg cursor-pointer w-max" >
+            <Link to="http://explore.crystalveey.com"
+              target="_blank">
               Explore Crystalveey
-            </li>
-            <li className="middle  hover:text-gray-400 cursor-pointer">
+            </Link>
+          </li>
+          <li className="middle  hover:text-gray-400 cursor-pointer">
+            <Link to="http://wholesome.crystalveey.com/">
               Wholesome
-            </li>
-            <li className="middle  hover:text-gray-400 font-medium text-lg cursor-pointer w-max">
-              CVC Charity
-            </li>
-          </ul>
-          <ul className="flex flex-col gap-6 w-full break-words text-white">
-            <li className="middle underline   hover:text-gray-400 cursor-pointer">
-              Contact
-            </li>
-            <li
-              className=" flex gap-1 items-center  font-medium text-lg cursor-pointer w-max"
+            </Link>
+          </li>
+          <li className="middle  hover:text-gray-400 font-medium text-lg cursor-pointer w-max">
+            <Link to="http://charity.crystalveey.com">
+              CVC Charity</Link>
+          </li>
+        </ul>
+        <ul className="flex flex-col gap-6 w-full break-words text-white">
+          <li className="middle underline   hover:text-gray-400 cursor-pointer">
+            Contact
+          </li>
+          <li
+            className=" flex gap-1 items-center  font-medium text-lg cursor-pointer w-max"
+            style={{ color: "rgb(56 189 248)" }}
+          >
+            <a
+              href="mailto:office.crystalveey@gmail.com"
+              className="hover:text-gray-750"
+            >
+              <FontAwesomeIcon icon={faEnvelope} className="px-2" />
+              office.crystalveey@gmail.com
+            </a>
+          </li>
+          <li
+            className=" flex gap-1 items-center  font-medium text-lg cursor-pointer w-max"
+            style={{ color: "rgb(56 189 248)" }}
+          >
+            <a
+              href="tel:+2548126091411"
+              className="hover:text-gray-750"
               style={{ color: "rgb(56 189 248)" }}
             >
-              <a
-                href="mailto:office.crystalveey@gmail.com"
-                className="hover:text-gray-750"
-              >
-                <FontAwesomeIcon icon={faEnvelope} className="px-2" />
-                office.crystalveey@gmail.com
-              </a>
-            </li>
-            <li
-              className=" flex gap-1 items-center  font-medium text-lg cursor-pointer w-max"
-              style={{ color: "rgb(56 189 248)" }}
-            >
-              <a
-                href="tel:+2548126091411"
-                className="hover:text-gray-750"
-                style={{ color: "rgb(56 189 248)" }}
-              >
-                <FontAwesomeIcon icon={faPhone} className="px-2" />
-                +254 812 609 1411
-              </a>
-            </li>
-            <li
-              className=" flex gap-1 items-center  font-medium text-lg cursor-pointer w-full"
-              style={{ color: "rgb(56 189 248)" }}
-            >
-              <FontAwesomeIcon icon={faMapLocation} className="px-2" />
-              Olu-Olusegun avenue off Mobil road, Lekki. Lagos state, Nigeria
-            </li>
-          </ul>
-        </div>
+              <FontAwesomeIcon icon={faPhone} className="px-2" />
+              +254 812 609 1411
+            </a>
+          </li>
+          <li
+            className=" flex gap-1 items-center  font-medium text-lg cursor-pointer w-full"
+            style={{ color: "rgb(56 189 248)" }}
+          >
+            <FontAwesomeIcon icon={faMapLocation} className="px-2" />
+            Olu-Olusegun avenue off Mobil road, Lekki. Lagos state, Nigeria
+          </li>
+        </ul>
       </div>
-      <hr className="border border-slate-700 " />
-      <Swiper
-        // breakpoints={breakpoints}
-        slidesPerView={4}
-        spaceBetween={10}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        modules={[Navigation, Autoplay]}
-        className="mySwiper py-10 text-white w-4/5 sm:w-full"
-      >
+    </div><hr className="border border-slate-700 " /><Swiper
+      // breakpoints={breakpoints}
+      slidesPerView={4}
+      spaceBetween={10}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      modules={[Navigation, Autoplay]}
+      className="mySwiper py-10 text-white w-4/5 sm:w-full"
+    >
         <SwiperSlide className="text-white">
           <img src={turkey} alt="turkey" className="w-40 h-20 sm:h-10" />
         </SwiperSlide>
@@ -277,8 +277,7 @@ export const Footer = () => {
         <SwiperSlide className="text-white">
           <img src={awa} alt="awa" className="w-40 h-20 sm:h-10" />
         </SwiperSlide>
-      </Swiper>
-      <div className=" border-gray-100 pt-6 text-center">
+      </Swiper><div className=" border-gray-100 pt-6 text-center">
         <p className="font-semibold base text-gray-200">
           &copy; {new Date().getFullYear()} Explore Crystalveey
           <span className="text-gray-400 pl-2"> All Rights Reserved</span>
