@@ -52,7 +52,7 @@ export const SectionTwo = () => {
               planning
             </p>
           </div>
-          <a href="http://explore-crystalveey.vercel.app" target="_blank">
+          <a href="http://explore.crystalveey.com" target="_blank">
             <button
               style={{ backgroundColor: "#d7dde4" }}
               className=" text-slate-800 font-medium  Aceh  py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-black
@@ -88,7 +88,7 @@ export const SectionTwo = () => {
               that express individuality
             </p>
           </div>
-          <a href="http://attelier.vercel.app/" target="_blank">
+          <a href="http://atelier.crystalveey.com/" rel="noreferrer" target="_blank">
             <button
               style={{ backgroundColor: "#d7dde4" }}
               className="  text-slate-800 font-medium  Aceh  py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-purple-700
@@ -122,13 +122,14 @@ export const SectionTwo = () => {
               adventurous lifestyle.
             </p>
           </div>
+          <a href="http://wholesome.crystalveey.com/">
           <button
             style={{ backgroundColor: "#d7dde4" }}
             className="  text-slate-800 font-medium  Aceh  py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-purple-700
           "
           >
             Learn More
-          </button>
+          </button></a>
         </div>
         <div data-aos="slide-up" data-aos-delay="300" data-aos-once="false" className="relative flex flex-col items-center w-96 gap-4 shadow-lg  pb-7   lg:w-80 sm:w-full">
 

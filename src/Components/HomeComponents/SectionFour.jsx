@@ -1,26 +1,49 @@
-import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
+import { useState, useEffect } from "react";
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { collection, getDocs, getFirestore } from "firebase/firestore";
+import { Link } from "react-router-dom";
 
-import image1 from "../../Images/topproduct/image1.jpeg";
-import image2 from "../../Images/topproduct/image2.jpeg";
-import image3 from "../../Images/topproduct/image3.jpeg";
-import image4 from "../../Images/topproduct/image4.jpeg";
-import image5 from "../../Images/topproduct/image5.jpeg";
-import image6 from "../../Images/topproduct/image6.jpeg";
-import image7 from "../../Images/topproduct/image7.jpeg";
-import image8 from "../../Images/topproduct/image8.jpeg";
-import image9 from "../../Images/topproduct/image9.jpeg";
-import image10 from "../../Images/topproduct/image10.jpeg";
-import image11 from "../../Images/topproduct/image11.jpeg";
-import image12 from "../../Images/topproduct/image12.jpeg";
-import image13 from "../../Images/topproduct/image13.jpeg";
-import image14 from "../../Images/topproduct/image14.jpeg";
-import image15 from "../../Images/topproduct/image15.jpeg";
-import image16 from "../../Images/topproduct/image16.jpeg";
+const secondaryAppConfig = {
+  apiKey: "AIzaSyDWJE0ytStDj7tYrYe9cc7aYwh4IqMNLAI",
+  authDomain: "crystaveey-atelier.firebaseapp.com",
+  projectId: "crystaveey-atelier",
+  storageBucket: "crystaveey-atelier.appspot.com",
+  messagingSenderId: "778305329441",
+  appId: "1:778305329441:web:093440c87a9af9d12ec660",
+  measurementId: "G-BDGF3RM5LR"
+};
+
+const secondaryApp = initializeApp(secondaryAppConfig, "secondary");
+
+const db = getFirestore(secondaryApp);
+
 export const SectionFour = () => {
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
+    const fetchTravelPackages = async () => {
+      try {
+        const querySnapshot = await getDocs(collection(db, "products"));
+        const products = [];
+        querySnapshot.forEach((doc) => {
+          products.push({ ...doc.data(), id: doc.id });
+        });
+        const newArrival = products.filter(
+          (product) => product.newarrival === "True"
+        );
+        setProducts(newArrival);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchTravelPackages();
+  }, []);
+
   const breakpoints = {
     // Define the breakpoints where you want to change the slidesPerView
     300: {
@@ -36,6 +59,7 @@ export const SectionFour = () => {
       spaceBetween: 30,
     },
   };
+  console.log(products)
   return (
     <div className="py-14 px-14 flex flex-col gap-16   bg-gray-50 rounded-lg mx-20 xl:mx-10 xl:gap-12 xl:px-8 sm:px-3 sm:mx-7">
       <h3 className="text-gray-900 font-bold text-4xl Aceh  xl:text-4xl md:text-2xl">
@@ -54,362 +78,38 @@ export const SectionFour = () => {
           modules={[Pagination, Autoplay, Navigation]}
           className="mySwiper"
         >
-         <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-              <img
-                src={image9}
-                alt="imgNine"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-              />
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    $295
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Hooded cotton sweatshirt
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
+         {products.map((item) => {
+          return (
+            <SwiperSlide key={item.id} className="mx-2">
+            <Link to={`https://atelier.crystalveey.com/productdes/${item.id}`} target="_blank">
+              <div
+                className=" w-full h-full    relative hvr-float cursor-pointer "
+               
+              >
+              <div className="w-full flex justify-center bg-stone-200 overflow overflow-hidden">
+                <img
+                  src={item.imgSrc[0]}
+                  alt={item.name}
+                  className="w-full   imghgt2"
+                  style={{ height: "330px", width: "200px" }}
+                />
               </div>
-            </div>
-          </SwiperSlide>
+               
+              </div>
+              <div className=" flex flex-col m-auto justify-center gap-1 sm:gap-0   p-5 sm:p-2 sm:pb-4">
+                <h5 className=" text-gray-900 font-light text-xl  font-sans sm:text-x">
+                 {item.name}
+                </h5>
+                {/* <h6 className="uppercase sm:text-sm">{item.title}</h6> */}
+                <p className="text-sky-500 text-xl mb-4"> ₦{item.price}</p>
+              </div>
+              <button className="btn bg-black text-white w-40">Shop</button>
+              </Link>
+            </SwiperSlide>
+          );
+        })}
 
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-              <img
-                src={image10}
-                alt="imgNine"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-              />
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    N16,000
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Viva
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-              <div className="w-96 sec4ImgH overflow overflow-hidden">
-              <img
-                src={image11}
-                alt="imgNine"
-                className="   2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-                style={{height: '400px', width: '500px'}}
-
-              />
-              </div>
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    N15,000
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Bloom dress
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-            <div className="w-96 sec4ImgH overflow-hidden">
-              <img
-                src={image12}
-                alt="imgNine"
-                className=" 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-                style={{height: '400px', width: '500px'}}
-              />
-              </div>
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    N12,500
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Luxe Maxi
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-            <div className="w-96 sec4ImgH overflow-hidden">
-              <img
-                src={image13}
-                alt="imgNine"
-                className=" 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-                style={{height: '400px', width: '500px'}}
-              />
-              </div>
-
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                   N9500
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Zendra
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-            <div className="w-96 sec4ImgH overflow-hidden">
-              <img
-                src={image14}
-                alt="imgNine"
-                className="  2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-                style={{height: '400px', width: '500px'}}
-
-              />
-              </div>
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    N10,500
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Tia Dress
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
           
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-              <img
-                src={image15}
-                alt="imgNine"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-              />
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    N14,000
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Luxe midi
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-              <img
-                src={image16}
-                alt="imgNine"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-              />
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    $295
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Hooded cotton sweatshirt
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-          
-          
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-              <img
-                src={image2}
-                alt="imgOne"
-                className=" sec4ImgH w-full 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-              />
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    N19,000
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Fiesta
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-              <img
-                src={image3}
-                alt="imgThree"
-                className=" sec4ImgH w-full 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-              />
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    $295
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Hooded cotton sweatshirt
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-              <img
-                src={image4}
-                alt="imgFour"
-                className=" sec4ImgH w-full 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-              />
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                  N17,000
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                  Luxe maxi wrap
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-              <img
-                src={image5}
-                alt="imgFive"
-                className=" sec4ImgH w-full 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-              />
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    N18,000
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                  Honora
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-              <img
-                src={image6}
-                alt="imgSix"
-                className=" sec4ImgH w-full 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-              />
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    N23,000
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                  Sizzler
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-              <img
-                src={image7}
-                alt="imgSeven"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-              />
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    N15,000
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Pomp
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-          
-          <SwiperSlide>
-            <div className="flex flex-col gap-3 w-max border-b border-gray-700 pb-2 sm:px-5 sm:w-full sm:border-none">
-              <img
-                src={image8}
-                alt="imgNine"
-                className=" sec4ImgH w-96 2xl:w-80 xl:w-72 md:w-60 sm:w-full"
-              />
-              <div className="flex flex-col gap-4">
-                <div className="">
-                  <h3 className="text-gray-900 font-semibold text-xl text-left md:text-lg">
-                    N16,000
-                  </h3>
-                  <p className="text-gray-500 font-semibold text-sm Aceh text-left md:font-medium">
-                    Audrey
-                  </p>
-                </div>
-                <button className="w-full bg-gray-900 text-white font-medium text-base py-2 rounded-lg hover:bg-gray-800 transition duration-300 ease-in-out">
-                  Shop Now
-                </button>
-              </div>
-            </div>
-          </SwiperSlide>
-
           
         </Swiper>
       </div>
