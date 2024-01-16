@@ -197,8 +197,8 @@ export const Footer = () => {
             </Link>
           </li>
           <li className="middle  hover:text-gray-400 cursor-pointer">
-            <Link to="http://wholesome.crystalveey.com/">
-              Wholesome
+            <Link to="http://wholesquare.org/">
+              Wholesquare
             </Link>
           </li>
           <li className="middle  hover:text-gray-400 font-medium text-lg cursor-pointer w-max">

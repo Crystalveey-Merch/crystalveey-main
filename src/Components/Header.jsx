@@ -52,10 +52,10 @@ export const Header = () => {
           </li>
           <li>
             <Link
-              to="http://wholesome.crystalveey.com/" target="_blank"
+              to="http://wholesquare.org/" target="_blank"
               className="middle text-gray-200    font-semibold hover:text-gray-400 xl:text-sm"
             >
-              Join Wholesome
+              Join Wholesquare
             </Link>
           </li>
           <li>
@@ -68,7 +68,7 @@ export const Header = () => {
           </li>
           <li>
             <Link
-              to="http://charity.crystalveey.com"
+              to="http://charity.crystalveey.com" target="_blank" 
               className="middle text-gray-200   font-semibold hover:text-gray-400 xl:text-sm"
             >
               CVC Charity
@@ -108,10 +108,10 @@ export const Header = () => {
             </li>
             <li className="border-b border-gray-700 pb-3">
               <Link
-                to="http://wholesome.crystalveey.com/"
+                to="http://wholesquare.org/"
                 className="middle  text-base  font-semibold hover:text-gray-750 sm:text-sm"
               >
-                Join Wholesome
+                Join Wholesquare
               </Link>
             </li>
             <li className="border-b border-gray-700 pb-3">
@@ -120,6 +120,14 @@ export const Header = () => {
                 className="middle  text-base  font-semibold hover:text-gray-750 sm:text-sm"
               >
                 Free Consultation
+              </Link>
+            </li>
+            <li className="border-b border-gray-700 pb-3">
+              <Link
+                to="https://charity.crystalveey.com/" target="_blank"
+                className="middle  text-base  font-semibold hover:text-gray-750 sm:text-sm"
+              >
+                CVC Charity
               </Link>
             </li>
           </ul>

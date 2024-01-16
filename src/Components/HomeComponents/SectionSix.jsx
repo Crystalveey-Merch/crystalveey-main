@@ -18,20 +18,20 @@ export const SectionSix = () => {
         </h6>
         <p className="text-gray-600 font-normal text-2xl italic md:text-sm"
         data-aos="slide-left" data-aos-delay="300">
-          Connect and chat with likeminds on Wholesome!!
+          Connect and chat with likeminds on Wholesquare!!
         </p>
         <form>
         <input type="email" className="px-4 py-2 w-full my-4 h-12 mr-4 bg-white border rounded-lg" placeholder="Email Address">
 
         </input>
-        <Link to="http://wholesome.crystalveey.com/">
+        <Link to="http://wholesquare.org/">
         <button type="submit"
             className="px-4 py-2 h-12 rounded-lg bg-black text-white text-base font-normal hover:bg-gray-900 transition duration-300 ease-in-out w-max
             xl:px-3 xl:text-sm xl:py-1 md:px-3 md:text-sm md:h-10 md:w-max sm:m-auto
           "
           data-aos="slide-up" data-aos-delay="400"        
                     >
-            Join Wholesome
+            Join Wholesquare
           </button></Link>
           </form>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import exploreImg from "../../Images/travelling.jpg";
 import atelierImg from "../../Images/fashionista-2.jpg";
-import wholesomeImg from "../../Images/picnic.jpg";
+import wholesquareImg from "../../Images/picnic.jpg";
 import CvCImg from "../../Images/charity.jpg";
 import { ReactComponent as Flight } from "../../Images/flight.svg";
 import { ReactComponent as Fashion } from "../../Images/fashion.svg";
@@ -100,14 +100,14 @@ export const SectionTwo = () => {
         <div data-aos="slide-up" data-aos-once="false" data-aos-delay="200" className="relative flex flex-col items-center w-96 gap-4 shadow-lg  pb-7   lg:w-80 sm:w-full">
 
           <img
-            src={wholesomeImg}
+            src={wholesquareImg}
             alt="exploreImg"
             className=" w-full h-52"
           />
           <div className=" flex flex-col gap-4 px-4">
             <Community className="w-10 h-10 inline-block m-auto  xl:w-6 xl:h-6" />
             <h4 className="text-black font-bold text-xl Aceh xl:text-xl">
-              Wholesome{" "}
+              Wholesquare{" "}
             </h4>
             <span className="relative flex m-auto ">
               <p className="text-slate-800  italic font-bold text-center rounded-full bg-slate-300/25  w-auto px-4  ">
@@ -122,7 +122,7 @@ export const SectionTwo = () => {
               adventurous lifestyle.
             </p>
           </div>
-          <a href="http://wholesome.crystalveey.com/">
+          <a href="http://wholesquare.org/" target="_blank">
           <button
             style={{ backgroundColor: "#d7dde4" }}
             className="  text-slate-800 font-medium  Aceh  py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-purple-700
@@ -157,6 +157,7 @@ export const SectionTwo = () => {
               in Nigeria
             </p>
           </div>
+          <a href="https://charity.crystalveey.com/" target="_blank">
           <button
             style={{ backgroundColor: "#d7dde4" }}
             className="  text-slate-800 font-medium  Aceh  py-2 px-4 w-max  transition duration-300 ease-in-out hover:bg-purple-700
@@ -164,6 +165,7 @@ export const SectionTwo = () => {
           >
             Learn More
           </button>
+          </a>
         </div>
       </div>
     </div>
